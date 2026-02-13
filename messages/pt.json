@@ -1,0 +1,70 @@
+{
+  "Layout": {
+    "title": "NextJS Boilerplate",
+    "description": "Boilerplate Next.js pronto para produção com internacionalização, temas, suporte a Docker, CI/CD e boas práticas integradas.",
+    "ogDescription": "Inicie seus projetos Next.js com uma base escalável e pronta para produção."
+  },
+  "Home": {
+    "description": "Boilerplate Next.js pronto para produção com internacionalização, temas, suporte a Docker, CI/CD e boas práticas integradas."
+  },
+  "Navbar": {
+    "titlenavbar": "NextJS Boilerplate",
+    "language": "Idioma",
+    "english": "Inglês",
+    "portuguese": "Português",
+    "spanish": "Espanhol",
+    "dark-mode": "Modo escuro",
+    "toggle-theme": "Tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema",
+    "close": "Fechar"
+  },
+  "Navigation": {
+    "home": "Início",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "login": "Entrar",
+    "getStarted": "Começar agora"
+  },
+  "Footer": {
+    "description": "Crie aplicações web modernas com nosso boilerplate Next.js. Rápido, escalável e pronto para produção.",
+    "product": "Produto",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "changelog": "Histórico de mudanças",
+    "roadmap": "Roadmap",
+    "company": "Empresa",
+    "about": "Sobre",
+    "blog": "Blog",
+    "careers": "Carreiras",
+    "contact": "Contato",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Política de Cookies",
+    "licenses": "Licenças",
+    "rightsReserved": "Todos os direitos reservados.",
+    "madeWith": "Feito com",
+    "by": "por"
+  },
+  "Cookies": {
+    "title": "Nós usamos cookies",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "message": "Usamos cookies para melhorar sua experiência.",
+    "privacyLink": "Leia nossa Política de Privacidade",
+    "error": "Erro ao aceitar os cookies"
+  },
+  "NotFound": {
+    "p": "Desculpe, não conseguimos encontrar esta página.",
+    "button": "Voltar à página inicial"
+  },
+  "Error": {
+    "title": "Algo deu errado",
+    "description": "Ocorreu um erro inesperado ao carregar esta página. Não se preocupe — já fomos notificados e você pode continuar navegando normalmente.",
+    "return-home": "Voltar à página inicial"
+  }
+}

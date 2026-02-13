@@ -1,0 +1,70 @@
+{
+  "Layout": {
+    "title": "NextJS Boilerplate",
+    "description": "Boilerplate de Next.js listo para producción con internacionalización, soporte para temas, Docker, CI/CD y mejores prácticas integradas.",
+    "ogDescription": "Comienza tus proyectos Next.js con una base escalable y preparada para producción."
+  },
+  "Home": {
+    "description": "Boilerplate de Next.js listo para producción con internacionalización, soporte para temas, Docker, CI/CD y mejores prácticas integradas."
+  },
+  "Navbar": {
+    "titlenavbar": "NextJS Boilerplate",
+    "language": "Idioma",
+    "english": "Inglés",
+    "portuguese": "Portugués",
+    "spanish": "Español",
+    "dark-mode": "Modo oscuro",
+    "toggle-theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "close": "Cerrar"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "features": "Características",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+  "Footer": {
+    "description": "Crea aplicaciones web modernas con nuestro boilerplate de Next.js. Rápido, escalable y listo para producción.",
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "changelog": "Registro de cambios",
+    "roadmap": "Hoja de ruta",
+    "company": "Empresa",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos del Servicio",
+    "cookies": "Política de Cookies",
+    "licenses": "Licencias",
+    "rightsReserved": "Todos los derechos reservados.",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "Cookies": {
+    "title": "Usamos cookies",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "message": "Usamos cookies para mejorar tu experiencia.",
+    "privacyLink": "Lee nuestra Política de Privacidad",
+    "error": "Error al aceptar las cookies"
+  },
+  "NotFound": {
+    "p": "Lo sentimos, no pudimos encontrar esta página.",
+    "button": "Volver a la página principal"
+  },
+  "Error": {
+    "title": "Algo salió mal",
+    "description": "Ocurrió un error inesperado al cargar esta página. No te preocupes — ya hemos sido notificados y puedes continuar navegando con normalidad.",
+    "return-home": "Volver a la página principal"
+  }
+}

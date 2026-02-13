@@ -1,0 +1,104 @@
+import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
+import "./globals.css";
+import { notFound } from "next/navigation";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import LayoutProvider from "@/components/layout-provider/layout-provider";
+import env from "@/env.mjs";
+import { routing } from "@/i18n/routing";
+
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const ogLocaleMap: Record<string, string> = {
+  pt: "pt_BR",
+  en: "en_US",
+  es: "es_ES",
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Layout" });
+
+  const title = t("title");
+  const description = t("description");
+  const ogDescription = t("ogDescription");
+
+  return {
+    metadataBase: new URL(env.NEXT_PUBLIC_WEBSITE_URL),
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: ogDescription,
+      url: `${env.NEXT_PUBLIC_WEBSITE_URL}/${locale}`,
+      siteName: "NextJS | Boilerplate Example",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+        },
+      ],
+      locale: ogLocaleMap[locale] ?? "en_US",
+      type: "website",
+    },
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        "pt-BR": "/pt",
+        "en-US": "/en",
+        "es-ES": "/es",
+      },
+    },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((locale: string) => ({ locale }));
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  return (
+    <html lang={locale} suppressHydrationWarning className="dark">
+      <body className={roboto.className}>
+        <NextIntlClientProvider>
+          <LayoutProvider>{children}</LayoutProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

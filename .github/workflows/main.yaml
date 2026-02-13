@@ -1,0 +1,43 @@
+name: Main CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_ENV: test
+  SKIP_ENV_VALIDATION: "true"
+  NEXT_PUBLIC_WEBSITE_URL: "http://localhost:3000"
+
+jobs:
+  build:
+    name: Bun CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "latest"
+
+      - name: Install deps
+        run: bun install --frozen-lockfile
+
+      - name: Typegen
+        run: bun run typegen
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Typecheck
+        run: bun run typecheck
+
+      - name: Tests
+        run: bun run test
+
+      - name: Build
+        run: bun run build
