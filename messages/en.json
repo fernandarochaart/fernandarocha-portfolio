@@ -1,11 +1,11 @@
 {
   "Layout": {
-    "title": "NextJS Boilerplate",
+    "title": "Fernanda Rocha | Portfolio",
     "description": "Production-ready Next.js boilerplate with internationalization, theming, Docker support, CI/CD and best practices built-in.",
     "ogDescription": "Kickstart your Next.js projects with a scalable, production-ready foundation."
   },
   "Home": {
-    "description": "Production-ready Next.js boilerplate with internationalization, theming, Docker support, CI/CD and best practices built-in."
+    "description": "My Portfolio"
   },
   "Navbar": {
     "titlenavbar": "NextJS Boilerplate",
@@ -13,11 +13,6 @@
     "english": "English",
     "portuguese": "Portuguese",
     "spanish": "Spanish",
-    "dark-mode": "Dark mode",
-    "toggle-theme": "Theme",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
     "close": "Close"
   },
   "Navigation": {
@@ -27,7 +22,8 @@
     "about": "About",
     "contact": "Contact",
     "login": "Login",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "jobs": "Jobs"
   },
   "Footer": {
     "description": "Build modern web applications with our Next.js boilerplate. Fast, scalable, and production-ready.",
@@ -66,5 +62,19 @@
     "title": "Something went wrong",
     "description": "An unexpected error occurred while loading this page. Don't worry — we've been notified and you can continue browsing normally.",
     "return-home": "Back to home page"
+  },
+  "About": {
+    "title": "Fernanda Rocha | About",
+    "h1": "About"
+  },
+  "Jobs": {
+    "title": "Fernanda Rocha | Jobs",
+    "description": "Check out our open positions and apply for the job that fits your skills and experience.",
+    "apply": "Apply",
+    "error": "Error loading jobs"
+  },
+  "Contact": {
+    "title": "Fernanda Rocha | Contact",
+    "h1": "Did you like my work?"
   }
 }

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import LangToggler from "@/components/language-selector/language-selector";
-import ToggleButton from "@/components/toggle-mode/toggle-mode";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -13,15 +12,13 @@ export default function Navbar() {
   const t = useTranslations("Navigation");
 
   const navItems = [
-    { href: "/", label: t("home") },
-    { href: "/features", label: t("features") },
-    { href: "/pricing", label: t("pricing") },
+    { href: "/jobs", label: t("jobs") },
     { href: "/about", label: t("about") },
     { href: "/contact", label: t("contact") },
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-stone-800 bg-white/80 dark:bg-stone-950/80 backdrop-blur-md">
+    <nav className="sticky top-0 z-50 w-full border-b bg-transparent backdrop-blur-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <button
@@ -36,10 +33,10 @@ export default function Navbar() {
             className="hidden md:flex items-center space-x-2 group"
           >
             <div className="w-9 h-9 rounded-lg bg-linear-to-br from-blue-600 to-purple-600 flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200">
-              <span className="text-white font-bold text-lg">N</span>
+              <span className="text-white font-bold text-lg">F</span>
             </div>
             <span className="text-xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              NextJS
+              Fernanda Rocha
             </span>
           </Link>
 
@@ -63,7 +60,6 @@ export default function Navbar() {
                 </Button>
               }
             />
-            <ToggleButton />
           </div>
         </div>
 

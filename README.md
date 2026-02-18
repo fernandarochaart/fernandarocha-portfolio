@@ -1,5 +1,5 @@
 <h1 align="center" id="header">
-  Next.js Boilerplate
+    Fernanda - Portfolio
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  Production-ready Next.js boilerplate with internationalization, theming, Docker support, and best practices built-in.
+    My personal portfolio website built with Next.js, TypeScript, TailwindCSS.
 </p>
 
 ---

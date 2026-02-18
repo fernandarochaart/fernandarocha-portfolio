@@ -36,10 +36,7 @@ const LangToggler = ({ trigger, defaultOpen, align = "end" }: Props) => {
         {trigger}
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent
-        align={align}
-        className="w-44 dark:bg-stone-950 bg-white"
-      >
+      <DropdownMenuContent align={align} className="w-44">
         <DropdownMenuRadioGroup value={locale} onValueChange={onChange}>
           <DropdownMenuRadioItem
             value="en"

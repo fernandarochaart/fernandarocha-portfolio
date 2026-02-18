@@ -33,18 +33,16 @@ export default function LayoutProvider({
 
   return (
     <>
-      <ThemeProvider enableSystem={true} attribute="class">
-        <Navbar />
-        {children}
-        <Toaster position="top-right" expand={true} />
-        {hasConsented && <Analytics />}
-        <SpeedInsights />
-        <CookieConsentComponent
-          onAcceptAction={handleAccept}
-          onDeclineAction={handleDecline}
-        />
-        <Footer />
-      </ThemeProvider>
+      <Navbar />
+      {children}
+      <Toaster position="top-right" expand={true} />
+      {hasConsented && <Analytics />}
+      <SpeedInsights />
+      <CookieConsentComponent
+        onAcceptAction={handleAccept}
+        onDeclineAction={handleDecline}
+      />
+      <Footer />
     </>
   );
 }

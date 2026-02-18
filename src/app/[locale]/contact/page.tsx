@@ -12,20 +12,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "About" });
+  const t = await getTranslations({ locale, namespace: "Contact" });
 
   return {
     title: t("title"),
+    description: t("h1"),
   };
 }
 
-export default async function AboutPage() {
-  const t = await getTranslations("Footer");
-
+export default function ContactPage() {
   return (
     <div className="min-h-screen mx-auto text-center mt-20">
-      <h1 className="text-base md:text-2xl">{t("about")}</h1>
-      <p className="mt-6 text-sm md:text-lg">{t("description")}.</p>
+      <h1>Contact</h1>
+      <p>Feel free to reach out to me at fernanda@example.com.</p>
     </div>
   );
 }
