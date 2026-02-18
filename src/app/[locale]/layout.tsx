@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -8,9 +8,11 @@ import LayoutProvider from "@/components/layout-provider/layout-provider";
 import env from "@/env.mjs";
 import { routing } from "@/i18n/routing";
 
-const roboto = Roboto({
-  weight: "400",
+const montserrat = Montserrat({
+  weight: ["300", "400", "500", "700"],
   subsets: ["latin"],
+  display: "swap",
+  fallback: ["Arial", "sans-serif"],
 });
 
 const ogLocaleMap: Record<string, string> = {
@@ -39,7 +41,7 @@ export async function generateMetadata({
       title: title,
       description: ogDescription,
       url: `${env.NEXT_PUBLIC_WEBSITE_URL}/${locale}`,
-      siteName: "NextJS | Boilerplate Example",
+      siteName: "Fernanda Rocha | Portfolio",
       images: [
         {
           url: "/og-image.png",
@@ -94,7 +96,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className="dark">
-      <body className={roboto.className}>
+      <body className={montserrat.className}>
         <NextIntlClientProvider>
           <LayoutProvider>{children}</LayoutProvider>
         </NextIntlClientProvider>

@@ -1,11 +1,11 @@
 {
   "Layout": {
-    "title": "NextJS Boilerplate",
+    "title": "Fernanda Rocha | Portfolio",
     "description": "Boilerplate Next.js pronto para produção com internacionalização, temas, suporte a Docker, CI/CD e boas práticas integradas.",
     "ogDescription": "Inicie seus projetos Next.js com uma base escalável e pronta para produção."
   },
   "Home": {
-    "description": "Boilerplate Next.js pronto para produção com internacionalização, temas, suporte a Docker, CI/CD e boas práticas integradas."
+    "description": "Meu Portfolio"
   },
   "Navbar": {
     "titlenavbar": "NextJS Boilerplate",
@@ -13,11 +13,6 @@
     "english": "Inglês",
     "portuguese": "Português",
     "spanish": "Espanhol",
-    "dark-mode": "Modo escuro",
-    "toggle-theme": "Tema",
-    "light": "Claro",
-    "dark": "Escuro",
-    "system": "Sistema",
     "close": "Fechar"
   },
   "Navigation": {
@@ -27,7 +22,8 @@
     "about": "Sobre",
     "contact": "Contato",
     "login": "Entrar",
-    "getStarted": "Começar agora"
+    "getStarted": "Começar agora",
+    "jobs": "Empregos"
   },
   "Footer": {
     "description": "Crie aplicações web modernas com nosso boilerplate Next.js. Rápido, escalável e pronto para produção.",
@@ -66,5 +62,19 @@
     "title": "Algo deu errado",
     "description": "Ocorreu um erro inesperado ao carregar esta página. Não se preocupe — já fomos notificados e você pode continuar navegando normalmente.",
     "return-home": "Voltar à página inicial"
+  },
+  "About": {
+    "title": "Fernanda Rocha | Sobre",
+    "h1": "Sobre"
+  },
+  "Jobs": {
+    "title": "Fernanda Rocha | Empregos",
+    "description": "Confira nossas vagas abertas e aplique para o emprego que se encaixa em suas habilidades e experiência.",
+    "apply": "Aplicar",
+    "error": "Erro ao carregar empregos"
+  },
+  "Contact": {
+    "title": "Fernanda Rocha | Contato",
+    "h1": "Gostou do meu trabalho?"
   }
 }

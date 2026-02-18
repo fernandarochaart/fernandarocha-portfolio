@@ -1,7 +1,7 @@
-# Makefile - NextJS Boilerplate
-PROJECT_NAME= NextJS Boilerplate
-DOCKER_IMAGE_NAME = nextjs-boilerplate
-DOCKER_CONTAINER_NAME = nextjs-boilerplate
+# Makefile - Fernanda - Portfolio
+PROJECT_NAME= Fernanda - Portfolio
+DOCKER_IMAGE_NAME = fernanda-portfolio
+DOCKER_CONTAINER_NAME = fernanda-portfolio
 PORT = 3000
 DOCKER_TAG = 1.0.0
 

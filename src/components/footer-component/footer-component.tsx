@@ -39,16 +39,16 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="border-t border-gray-200 dark:border-stone-800 bg-white dark:bg-stone-950">
+    <footer className="border-t border-stone-800 bg-stone-950">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center space-x-2 group">
               <div className="w-10 h-10 rounded-lg bg-linear-to-br from-blue-600 to-purple-600 flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200">
-                <span className="text-white font-bold text-xl">N</span>
+                <span className="text-white font-bold text-xl">F</span>
               </div>
               <span className="text-2xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                NextJS
+                Fernanda Rocha
               </span>
             </Link>
 
