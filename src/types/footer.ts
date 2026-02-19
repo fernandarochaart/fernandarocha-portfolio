@@ -11,4 +11,4 @@ export type FooterLink = {
   label: string;
 };
 
-export type FooterSection = "product" | "company" | "legal";
+export type FooterSection = "navigation" | "legal";

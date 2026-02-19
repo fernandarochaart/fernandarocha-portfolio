@@ -114,13 +114,13 @@ export default function CookieConsentComponent({
           <div className="flex flex-col sm:flex-row gap-2.5 px-5 py-4 bg-gray-50/80 dark:bg-stone-900/50 border-t border-gray-200 dark:border-stone-800">
             <Button
               onClick={accept}
-              className="flex-1 bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white dark:text-gray-200 shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer font-medium"
+              className="flex-1 bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white dark:text-gray-200 shadow-md hover:shadow-lg transition-all duration-200  font-medium"
             >
               {t("accept")}
             </Button>
             <Button
               onClick={decline}
-              className="flex-1 bg-gray-200 hover:bg-gray-300 dark:bg-stone-800 dark:hover:bg-stone-700 text-gray-700 dark:text-gray-300 cursor-pointer font-medium transition-all duration-200"
+              className="flex-1 bg-gray-200 hover:bg-gray-300 dark:bg-stone-800 dark:hover:bg-stone-700 text-gray-700 dark:text-gray-300 font-medium transition-all duration-200"
               variant="secondary"
             >
               {t("decline")}

@@ -6,6 +6,10 @@ const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
+
+    SMTP_EMAIL: z.email(),
+    SMTP_PASSWORD: z.string(),
+    SLACK_WEBHOOK_URL: z.string().optional(),
   },
 
   client: {
@@ -22,6 +26,9 @@ const env = createEnv({
 
   runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
+    SMTP_EMAIL: process.env.SMTP_EMAIL,
+    SMTP_PASSWORD: process.env.SMTP_PASSWORD,
+    SLACK_WEBHOOK_URL: process.env.SLACK_WEBHOOK_URL,
     NEXT_PUBLIC_WEBSITE_URL: process.env.NEXT_PUBLIC_WEBSITE_URL,
   },
 

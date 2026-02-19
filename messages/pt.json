@@ -23,28 +23,26 @@
     "contact": "Contato",
     "login": "Entrar",
     "getStarted": "Começar agora",
-    "jobs": "Empregos"
+    "jobs": "Trabalhos"
   },
   "Footer": {
-    "description": "Crie aplicações web modernas com nosso boilerplate Next.js. Rápido, escalável e pronto para produção.",
-    "product": "Produto",
-    "features": "Funcionalidades",
-    "pricing": "Preços",
-    "changelog": "Histórico de mudanças",
-    "roadmap": "Roadmap",
-    "company": "Empresa",
+    "jobs": "Trabalhos",
     "about": "Sobre",
-    "blog": "Blog",
-    "careers": "Carreiras",
     "contact": "Contato",
-    "legal": "Legal",
     "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "cookies": "Política de Cookies",
-    "licenses": "Licenças",
-    "rightsReserved": "Todos os direitos reservados.",
-    "madeWith": "Feito com",
-    "by": "por"
+    "description": "Publicitária focada em marketing e comunicação — estratégia, conteúdo e presença digital.",
+    "navigation": "Navegação",
+    "legal": "Legal",
+    "madeWith": "Feito com carinho por",
+    "brandName": "Fernanda Rocha",
+    "copyrightPrefix": "©",
+    "developedBy": "Desenvolvido por",
+    "developerName": "Victor Zarzar",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "email": "E-mail"
+    }
   },
   "Cookies": {
     "title": "Nós usamos cookies",
@@ -69,6 +67,7 @@
   },
   "Jobs": {
     "title": "Fernanda Rocha | Empregos",
+    "h1": "Trabalhos",
     "description": "Confira nossas vagas abertas e aplique para o emprego que se encaixa em suas habilidades e experiência.",
     "apply": "Aplicar",
     "error": "Erro ao carregar empregos"

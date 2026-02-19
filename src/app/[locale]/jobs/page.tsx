@@ -20,11 +20,11 @@ export async function generateMetadata({
 }
 
 export default async function JobsPage() {
-  const t = await getTranslations("Footer");
+  const t = await getTranslations("Jobs");
 
   return (
     <div className="min-h-screen mx-auto text-center mt-20">
-      <h1 className="text-base md:text-2xl">{t("about")}</h1>
+      <h1 className="text-base md:text-2xl">{t("h1")}</h1>
       <p>Here are some of the services I offer:</p>
       <ul>
         <li>UI/UX Design</li>
