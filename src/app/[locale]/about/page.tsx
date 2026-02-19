@@ -1,5 +1,6 @@
 import type { Metadata } from "next/types";
 import { getTranslations } from "next-intl/server";
+import SlideUpWrapper from "@/components/wrapper/slide-wrapper";
 import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
@@ -24,7 +25,9 @@ export default async function AboutPage() {
 
   return (
     <div className="min-h-screen mx-auto text-center mt-20">
-      <h1 className="text-base md:text-2xl">{t("about")}</h1>
+      <SlideUpWrapper>
+        <h1 className="text-base md:text-2xl">{t("about")}</h1>
+      </SlideUpWrapper>
       <p className="mt-6 text-sm md:text-lg">{t("description")}.</p>
     </div>
   );

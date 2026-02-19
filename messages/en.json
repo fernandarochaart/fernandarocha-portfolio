@@ -1,8 +1,8 @@
 {
   "Layout": {
     "title": "Fernanda Rocha | Portfolio",
-    "description": "Production-ready Next.js boilerplate with internationalization, theming, Docker support, CI/CD and best practices built-in.",
-    "ogDescription": "Kickstart your Next.js projects with a scalable, production-ready foundation."
+    "description": "Marketing & communication professional focused on strategy, content, and digital presence.",
+    "ogDescription": "Marketing & communication — strategy, content, and digital presence."
   },
   "Home": {
     "description": "My Portfolio"
@@ -74,6 +74,27 @@
   },
   "Contact": {
     "title": "Fernanda Rocha | Contact",
-    "h1": "Did you like my work?"
+    "h1": "Let’s talk.",
+    "cardSubtitle": "Want to collaborate, kick off a project, or just say hi? Reach out here.",
+    "labels": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "contactLinks": {
+      "emailText": "Fernanda Rocha"
+    },
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send",
+    "loading": "Sending…",
+    "emailsucess": "Message sent successfully!",
+    "emailerror": "Something went wrong. Please try again in a moment.",
+    "namerequired": "Please enter your name.",
+    "invalidemail": "Please enter a valid email address.",
+    "subjectrequired": "Please enter a subject.",
+    "messagerequired": "Please write your message."
   }
 }

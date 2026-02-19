@@ -1,5 +1,6 @@
 import type { Metadata } from "next/types";
 import { getTranslations } from "next-intl/server";
+import SlideUpWrapper from "@/components/wrapper/slide-wrapper";
 import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
@@ -24,7 +25,9 @@ export default async function JobsPage() {
 
   return (
     <div className="min-h-screen mx-auto text-center mt-20">
-      <h1 className="text-base md:text-2xl">{t("h1")}</h1>
+      <SlideUpWrapper>
+        <h1 className="text-base md:text-2xl">{t("h1")}</h1>
+      </SlideUpWrapper>
       <p>Here are some of the services I offer:</p>
       <ul>
         <li>UI/UX Design</li>
