@@ -26,25 +26,23 @@
     "jobs": "Jobs"
   },
   "Footer": {
-    "description": "Build modern web applications with our Next.js boilerplate. Fast, scalable, and production-ready.",
-    "product": "Product",
-    "features": "Features",
-    "pricing": "Pricing",
-    "changelog": "Changelog",
-    "roadmap": "Roadmap",
-    "company": "Company",
+    "jobs": "Jobs",
     "about": "About",
-    "blog": "Blog",
-    "careers": "Careers",
     "contact": "Contact",
-    "legal": "Legal",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "licenses": "Licenses",
-    "rightsReserved": "All rights reserved.",
-    "madeWith": "Made with",
-    "by": "by"
+    "description": "Marketing & communication professional — strategy, content, and digital presence.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "madeWith": "Made with care by",
+    "brandName": "Fernanda Rocha",
+    "copyrightPrefix": "©",
+    "developedBy": "Developed by",
+    "developerName": "Victor Zarzar",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    }
   },
   "Cookies": {
     "title": "We use cookies",
@@ -69,6 +67,7 @@
   },
   "Jobs": {
     "title": "Fernanda Rocha | Jobs",
+    "h1": "Jobs",
     "description": "Check out our open positions and apply for the job that fits your skills and experience.",
     "apply": "Apply",
     "error": "Error loading jobs"
