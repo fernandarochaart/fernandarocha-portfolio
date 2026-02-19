@@ -47,7 +47,7 @@ export default function Footer() {
               </span>
             </Link>
 
-            <p className="text-sm text-gray-600 dark:text-gray-400 max-w-xs leading-relaxed">
+            <p className="text-sm text-gray-400 max-w-xs leading-relaxed">
               {t("description")}
             </p>
 
@@ -58,7 +58,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-lg bg-gray-100 dark:bg-stone-900 hover:bg-linear-to-br hover:from-blue-600 hover:to-purple-600 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:text-white transition-all duration-200 group"
+                  className="w-9 h-9 rounded-lg bg-stone-900 hover:bg-linear-to-br hover:from-blue-600 hover:to-purple-600 flex items-center justify-center text-gray-300 hover:text-white transition-all duration-200 group"
                   aria-label={social.label}
                 >
                   <social.icon className="h-4 w-4" aria-hidden="true" />
@@ -68,7 +68,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">
+            <h3 className="font-semibold text-gray-100 mb-4">
               {t("navigation")}
             </h3>
             <ul className="space-y-3">
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                    className="text-sm text-gray-400 hover:text-blue-600 transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -86,15 +86,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-4">
-              {t("legal")}
-            </h3>
+            <h3 className="font-semibold text-gray-100 mb-4">{t("legal")}</h3>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                    className="text-sm text-gray-400 hover:text-blue-600 transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -104,17 +102,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200 dark:border-stone-800">
+        <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-600 dark:text-gray-400 text-center sm:text-left">
+            <p className="text-sm text-gray-400 text-center sm:text-left">
               © {new Date().getFullYear()} {t("brandName")}
             </p>
 
-            <p className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-400">
+            <p className="flex items-center gap-1 text-sm text-gray-400">
               {t("developedBy")}{" "}
               <Link
                 href="https://www.victorzarzar.com.br"
-                className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                className="text-blue-600 hover:underline font-medium"
                 target="_blank"
                 rel="noopener noreferrer"
               >

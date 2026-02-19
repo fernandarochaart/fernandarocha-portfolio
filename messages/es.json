@@ -1,8 +1,8 @@
 {
   "Layout": {
     "title": "Fernanda Rocha | Portfolio",
-    "description": "Boilerplate de Next.js listo para producción con internacionalización, soporte para temas, Docker, CI/CD y mejores prácticas integradas.",
-    "ogDescription": "Comienza tus proyectos Next.js con una base escalable y preparada para producción."
+    "description": "Profesional de marketing y comunicación enfocada en estrategia, contenido y presencia digital.",
+    "ogDescription": "Marketing y comunicación — estrategia, contenido y presencia digital."
   },
   "Home": {
     "description": "Mi Portfolio"
@@ -66,7 +66,7 @@
     "h1": "Acerca de"
   },
   "Jobs": {
-    "title": "Fernanda Rocha | Empleos",
+    "title": "Fernanda Rocha | Trabajos",
     "h1": "Trabajos",
     "description": "Confira nuestras vacantes abiertas y aplique para el empleo que se encaje en sus habilidades y experiencia.",
     "apply": "Aplicar",
@@ -74,6 +74,27 @@
   },
   "Contact": {
     "title": "Fernanda Rocha | Contacto",
-    "h1": "¿Te gustó mi trabajo?"
+    "h1": "Hablemos.",
+    "cardSubtitle": "¿Quieres colaborar, empezar un proyecto o simplemente saludar? Escríbeme por aquí.",
+    "labels": {
+      "email": "Correo",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "contactLinks": {
+      "emailText": "Fernanda Rocha"
+    },
+    "name": "Nombre",
+    "email": "Correo",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "loading": "Enviando…",
+    "emailsucess": "¡Mensaje enviado con éxito!",
+    "emailerror": "Algo salió mal. Inténtalo de nuevo en un momento.",
+    "namerequired": "Por favor, introduce tu nombre.",
+    "invalidemail": "Por favor, introduce un correo válido.",
+    "subjectrequired": "Por favor, introduce un asunto.",
+    "messagerequired": "Por favor, escribe tu mensaje."
   }
 }

@@ -2,7 +2,6 @@
 
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { ThemeProvider } from "next-themes";
 import type React from "react";
 import { useEffect, useState } from "react";
 import CookieConsentComponent from "@/components/cookie-consent/cookie-consent";
