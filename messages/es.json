@@ -5,7 +5,7 @@
     "ogDescription": "Marketing y comunicación — estrategia, contenido y presencia digital."
   },
   "Home": {
-    "description": "Mi Portfolio"
+    "description": "Mi Portafolio"
   },
   "Navbar": {
     "titlenavbar": "NextJS Boilerplate",
@@ -17,20 +17,21 @@
   },
   "Navigation": {
     "home": "Inicio",
-    "features": "Características",
+    "features": "Funcionalidades",
     "pricing": "Precios",
-    "about": "Acerca de",
+    "about": "Sobre mí",
     "contact": "Contacto",
     "login": "Iniciar sesión",
-    "getStarted": "Comenzar",
-    "jobs": "Trabajos"
+    "getStarted": "Comenzar ahora",
+    "jobs": "Trabajos",
+    "brandName": "Fernanda Rocha"
   },
   "Footer": {
     "jobs": "Trabajos",
     "about": "Sobre mí",
     "contact": "Contacto",
     "privacy": "Política de Privacidad",
-    "description": "Profesional de marketing y comunicación: estrategia, contenido y presencia digital.",
+    "description": "Publicista enfocada en marketing y comunicación — estrategia, contenido y presencia digital.",
     "navigation": "Navegación",
     "legal": "Legal",
     "madeWith": "Hecho con cariño por",
@@ -41,7 +42,7 @@
     "social": {
       "instagram": "Instagram",
       "linkedin": "LinkedIn",
-      "email": "Correo"
+      "email": "Correo electrónico"
     }
   },
   "Cookies": {
@@ -54,28 +55,76 @@
   },
   "NotFound": {
     "p": "Lo sentimos, no pudimos encontrar esta página.",
-    "button": "Volver a la página principal"
+    "button": "Volver al inicio"
   },
   "Error": {
     "title": "Algo salió mal",
-    "description": "Ocurrió un error inesperado al cargar esta página. No te preocupes — ya hemos sido notificados y puedes continuar navegando con normalidad.",
-    "return-home": "Volver a la página principal"
+    "description": "Ocurrió un error inesperado al cargar esta página. No te preocupes — ya fuimos notificados y puedes continuar navegando con normalidad.",
+    "return-home": "Volver al inicio"
   },
   "About": {
-    "title": "Fernanda Rocha | Acerca de",
-    "h1": "Acerca de"
+    "title": "Fernanda Rocha | Sobre mí",
+    "h1": "Sobre mí.",
+    "subtitle": "Diseñadora, comunicadora y solucionadora creativa basada en Brasil.",
+    "description": "Soy Fernanda Rocha, diseñadora y profesional de marketing apasionada por construir marcas y experiencias que conectan. Trabajo en la intersección entre identidad visual, UI/UX y comunicación estratégica — transformando ideas en diseño funcional y con propósito.",
+    "location": "Brasil",
+    "role": "Diseñadora & Comunicadora",
+    "labels": {
+      "location": "Ubicación",
+      "role": "Área"
+    }
   },
   "Jobs": {
     "title": "Fernanda Rocha | Trabajos",
     "h1": "Trabajos",
-    "description": "Confira nuestras vacantes abiertas y aplique para el empleo que se encaje en sus habilidades y experiencia.",
-    "apply": "Aplicar",
-    "error": "Error al cargar empleos"
+    "subtitle": "Una selección de trabajos freelance y personales — branding, UI/UX, web y contenido.",
+    "projects": {
+      "01": {
+        "category": "Fotografía",
+        "title": "Fotos: Luísa Sonza - Tuparendi",
+        "description": "Fotos de la artista Luísa Sonza - Tuparendi, Rio Grande do Sul, Brasil."
+      },
+      "02": {
+        "category": "Media Kit",
+        "title": "Media Kit: Renata Giaffredo",
+        "description": "El material a continuación es uno de los proyectos que desarrollé para la influencer Renata Giaffredo (participante de Love Is Blind). Durante un período, gestioné su asesoría completa a través de una agencia, administrando contratos, alianzas y acompañando el 360° de su carrera."
+      },
+      "03": {
+        "category": "Campaña",
+        "title": "Prati: Utilidades Domésticas & Decoración",
+        "description": "Campaña de marketing para la empresa Prati, enfocada en utilidades domésticas y decoración. Desarrollé el concepto, creación de contenido y gestión de redes sociales."
+      },
+      "04": {
+        "category": "Desarrollo de logo",
+        "title": "Proyecto de desarrollo de logo",
+        "description": "Desarrollo de logo para Naira Machado - Asesoría en viajes"
+      }
+    },
+    "seeAll": "Ver todos los Trabajos",
+    "tags": {
+      "photography": "Fotografía",
+      "show": "Show en Vivo",
+      "events": "Eventos",
+      "mediaKit": "Media Kit",
+      "influencers": "Influencers",
+      "realityShow": "Reality Show",
+      "design": "Diseño",
+      "graphicDesigner": "Diseñadora Gráfica",
+      "visualIdentity": "Identidad Visual",
+      "marketing": "Marketing",
+      "brandDesign": "Diseño de Marca",
+      "communication": "Comunicación",
+      "travel": "Viajes",
+      "logo": "Logo",
+      "identity": "Identidad",
+      "brand": "Marca",
+      "graphicDesign": "Diseño Gráfico"
+    }
   },
   "Contact": {
     "title": "Fernanda Rocha | Contacto",
-    "h1": "Hablemos.",
-    "cardSubtitle": "¿Quieres colaborar, empezar un proyecto o simplemente saludar? Escríbeme por aquí.",
+    "h1": "¿Hablamos?",
+    "cardSubtitle": "¿Quieres dar vida a una idea, colaborar o simplemente saludar? Escríbeme por aquí.",
     "labels": {
       "email": "Correo",
       "linkedin": "LinkedIn",
@@ -85,16 +134,16 @@
       "emailText": "Fernanda Rocha"
     },
     "name": "Nombre",
-    "email": "Correo",
+    "email": "Correo electrónico",
     "subject": "Asunto",
     "message": "Mensaje",
     "submit": "Enviar",
     "loading": "Enviando…",
     "emailsucess": "¡Mensaje enviado con éxito!",
-    "emailerror": "Algo salió mal. Inténtalo de nuevo en un momento.",
-    "namerequired": "Por favor, introduce tu nombre.",
-    "invalidemail": "Por favor, introduce un correo válido.",
-    "subjectrequired": "Por favor, introduce un asunto.",
-    "messagerequired": "Por favor, escribe tu mensaje."
+    "emailerror": "No fue posible enviar. Inténtalo nuevamente en unos instantes.",
+    "namerequired": "Ingresa tu nombre.",
+    "invalidemail": "Introduce un correo válido.",
+    "subjectrequired": "Ingresa el asunto.",
+    "messagerequired": "Escribe tu mensaje."
   }
 }

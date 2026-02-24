@@ -1,4 +1,5 @@
 "use client";
+
 import { LanguagesIcon, Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
@@ -21,11 +22,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-9 h-9 rounded-lg bg-linear-to-br from-blue-600 to-purple-600 flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200">
-              <span className="text-white font-bold text-lg">F</span>
-            </div>
-            <span className="text-xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Fernanda Rocha
+            <span className="text-xl font-bold bg-linear-to-r text-gray-700 bg-clip-text">
+              {t("brandName")}
             </span>
           </Link>
 
@@ -36,8 +34,8 @@ export default function Navbar() {
                 href={item.href}
                 className="relative text-sm font-medium text-gray-700 pb-1
                   after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0
-                  after:bg-blue-600 after:transition-all after:duration-300
-                  hover:after:w-full hover:text-blue-600 dark:hover:text-blue-400"
+                  after:bg-gray-900 after:transition-all after:duration-300
+                  hover:after:w-full hover:text-black-900"
               >
                 {item.label}
               </Link>
@@ -72,7 +70,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 dark:hover:text-blue-400 rounded-lg hover:bg-gray-100 transition-colors"
+                className="block px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 dark:hover:text-gray-900 rounded-lg hover:bg-gray-100 transition-colors"
               >
                 {item.label}
               </Link>
