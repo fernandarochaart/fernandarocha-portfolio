@@ -1,8 +1,8 @@
 {
   "Layout": {
     "title": "Fernanda Rocha | Portfolio",
-    "description": "Marketing & communication professional focused on strategy, content, and digital presence.",
-    "ogDescription": "Marketing & communication — strategy, content, and digital presence."
+    "description": "Marketing and communication professional focused on strategy, content, and digital presence.",
+    "ogDescription": "Marketing and communication — strategy, content, and digital presence."
   },
   "Home": {
     "description": "My Portfolio"
@@ -23,14 +23,15 @@
     "contact": "Contact",
     "login": "Login",
     "getStarted": "Get Started",
-    "jobs": "Jobs"
+    "jobs": "Projects",
+    "brandName": "Fernanda Rocha"
   },
   "Footer": {
-    "jobs": "Jobs",
+    "jobs": "Projects",
     "about": "About",
     "contact": "Contact",
     "privacy": "Privacy Policy",
-    "description": "Marketing & communication professional — strategy, content, and digital presence.",
+    "description": "Advertising professional focused on marketing and communication — strategy, content, and digital presence.",
     "navigation": "Navigation",
     "legal": "Legal",
     "madeWith": "Made with care by",
@@ -50,32 +51,80 @@
     "decline": "Decline",
     "message": "We use cookies to improve your experience.",
     "privacyLink": "Read our Privacy Policy",
-    "error": "Error accepting cookies"
+    "error": "Error while accepting cookies"
   },
   "NotFound": {
     "p": "Sorry, we couldn't find this page.",
-    "button": "Back to home page"
+    "button": "Back to home"
   },
   "Error": {
     "title": "Something went wrong",
-    "description": "An unexpected error occurred while loading this page. Don't worry — we've been notified and you can continue browsing normally.",
-    "return-home": "Back to home page"
+    "description": "An unexpected error occurred while loading this page. Don’t worry — we’ve been notified and you can continue browsing normally.",
+    "return-home": "Back to home"
   },
   "About": {
     "title": "Fernanda Rocha | About",
-    "h1": "About"
+    "h1": "About me.",
+    "subtitle": "Designer, communicator, and creative problem solver based in Brazil.",
+    "description": "I'm Fernanda Rocha, a designer and marketing professional passionate about building brands and experiences that connect. I work at the intersection of visual identity, UI/UX, and strategic communication — transforming ideas into functional and purposeful design.",
+    "location": "Brazil",
+    "role": "Designer & Communicator",
+    "labels": {
+      "location": "Location",
+      "role": "Field"
+    }
   },
   "Jobs": {
-    "title": "Fernanda Rocha | Jobs",
-    "h1": "Jobs",
-    "description": "Check out our open positions and apply for the job that fits your skills and experience.",
-    "apply": "Apply",
-    "error": "Error loading jobs"
+    "title": "Fernanda Rocha | Projects",
+    "h1": "Projects",
+    "subtitle": "A selection of freelance and personal projects — branding, UI/UX, web, and content.",
+    "projects": {
+      "01": {
+        "category": "Photography",
+        "title": "Photos: Luísa Sonza - Tuparendi",
+        "description": "Photos of the artist Luísa Sonza - Tuparendi, Rio Grande do Sul, Brazil."
+      },
+      "02": {
+        "category": "Media Kit",
+        "title": "Media Kit: Renata Giaffredo",
+        "description": "The material below is one of the projects I developed for influencer Renata Giaffredo (participant of Love Is Blind). For a period, I managed her full advisory through an agency, overseeing contracts, partnerships, and supporting the 360° management of her career."
+      },
+      "03": {
+        "category": "Campaign",
+        "title": "Prati: Home & Decoration",
+        "description": "Marketing campaign for Prati, focused on home and decoration products. I developed the concept, content creation, and social media management."
+      },
+      "04": {
+        "category": "Logo Development",
+        "title": "Logo Development Project",
+        "description": "Logo development for Naira Machado - Travel Advisory"
+      }
+    },
+    "seeAll": "See all Jobs",
+    "tags": {
+      "photography": "Photography",
+      "show": "Live Show",
+      "events": "Events",
+      "mediaKit": "Media Kit",
+      "influencers": "Influencers",
+      "realityShow": "Reality Show",
+      "design": "Design",
+      "graphicDesigner": "Graphic Designer",
+      "visualIdentity": "Visual Identity",
+      "marketing": "Marketing",
+      "brandDesign": "Brand Design",
+      "communication": "Communication",
+      "travel": "Travel",
+      "logo": "Logo",
+      "identity": "Identity",
+      "brand": "Brand",
+      "graphicDesign": "Graphic Design"
+    }
   },
   "Contact": {
     "title": "Fernanda Rocha | Contact",
-    "h1": "Let’s talk.",
-    "cardSubtitle": "Want to collaborate, kick off a project, or just say hi? Reach out here.",
+    "h1": "Let's talk?",
+    "cardSubtitle": "Want to bring an idea to life, collaborate, or just say hello? Reach out here.",
     "labels": {
       "email": "Email",
       "linkedin": "LinkedIn",
@@ -91,10 +140,10 @@
     "submit": "Send",
     "loading": "Sending…",
     "emailsucess": "Message sent successfully!",
-    "emailerror": "Something went wrong. Please try again in a moment.",
+    "emailerror": "Unable to send. Please try again shortly.",
     "namerequired": "Please enter your name.",
-    "invalidemail": "Please enter a valid email address.",
+    "invalidemail": "Enter a valid email.",
     "subjectrequired": "Please enter a subject.",
-    "messagerequired": "Please write your message."
+    "messagerequired": "Write your message."
   }
 }

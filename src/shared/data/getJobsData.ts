@@ -1,0 +1,57 @@
+import type { Job } from "@/types/jobs";
+
+export const jobs: Job[] = [
+  {
+    id: "01",
+    year: "2025",
+    categoryKey: "projects.01.category",
+    titleKey: "projects.01.title",
+    descriptionKey: "projects.01.description",
+    tagsKeys: ["tags.photography", "tags.show", "tags.events"],
+    image: "/projects/project-01.jpg",
+    link: "https://www.behance.net/gallery/226180587/Fotos-Luisa-Sonza-Tuparendi",
+  },
+  {
+    id: "02",
+    year: "2025",
+    categoryKey: "projects.02.category",
+    titleKey: "projects.02.title",
+    descriptionKey: "projects.02.description",
+    tagsKeys: ["tags.mediaKit", "tags.influencers", "tags.realityShow"],
+    image: "/projects/project-02.jpg",
+    link: "https://www.behance.net/gallery/226182015/Midia-Kit-Renata-Giaffredo",
+  },
+  {
+    id: "03",
+    year: "2024",
+    categoryKey: "projects.03.category",
+    titleKey: "projects.03.title",
+    descriptionKey: "projects.03.description",
+    tagsKeys: [
+      "tags.design",
+      "tags.graphicDesigner",
+      "tags.visualIdentity",
+      "tags.marketing",
+      "tags.brandDesign",
+      "tags.communication",
+    ],
+    image: "/projects/project-03.jpg",
+    link: "https://www.behance.net/gallery/184507155/Campanha-Prati-Chegou",
+  },
+  {
+    id: "04",
+    year: "2023",
+    categoryKey: "projects.04.category",
+    titleKey: "projects.04.title",
+    descriptionKey: "projects.04.description",
+    tagsKeys: [
+      "tags.travel",
+      "tags.logo",
+      "tags.identity",
+      "tags.brand",
+      "tags.graphicDesign",
+    ],
+    image: "/projects/project-04.jpg",
+    link: "https://www.behance.net/gallery/184508167/Campanha-F-e-Alegria",
+  },
+];

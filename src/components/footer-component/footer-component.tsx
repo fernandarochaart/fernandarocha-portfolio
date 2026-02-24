@@ -39,9 +39,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center space-x-2 group">
-              <div className="w-10 h-10 rounded-lg bg-linear-to-br from-blue-600 to-purple-600 flex items-center justify-center transform group-hover:scale-105 transition-transform duration-200">
-                <span className="text-white font-bold text-xl">F</span>
-              </div>
               <span className="text-2xl font-bold bg-linear-to-r text-white bg-clip-text">
                 {t("brandName")}
               </span>
@@ -58,7 +55,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-lg bg-stone-900 hover:bg-linear-to-br hover:from-blue-600 hover:to-purple-600 flex items-center justify-center text-gray-300 hover:text-white transition-all duration-200 group"
+                  className="w-9 h-9 rounded-lg bg-stone-900 hover:bg-linear-to-br flex items-center justify-center text-gray-300 hover:text-white transition-all duration-200 group"
                   aria-label={social.label}
                 >
                   <social.icon className="h-4 w-4" aria-hidden="true" />
@@ -76,7 +73,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-400 hover:text-blue-600 transition-colors duration-200"
+                    className="text-sm text-gray-400 hover:text-gray-600 transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -92,7 +89,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-400 hover:text-blue-600 transition-colors duration-200"
+                    className="text-sm text-gray-400 hover:text-gray-600 transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -112,7 +109,7 @@ export default function Footer() {
               {t("developedBy")}{" "}
               <Link
                 href="https://www.victorzarzar.com.br"
-                className="text-blue-600 hover:underline font-medium"
+                className="text-gray-600 hover:underline font-medium"
                 target="_blank"
                 rel="noopener noreferrer"
               >

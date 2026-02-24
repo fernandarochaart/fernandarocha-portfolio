@@ -23,7 +23,8 @@
     "contact": "Contato",
     "login": "Entrar",
     "getStarted": "Começar agora",
-    "jobs": "Trabalhos"
+    "jobs": "Trabalhos",
+    "brandName": "Fernanda Rocha"
   },
   "Footer": {
     "jobs": "Trabalhos",
@@ -63,14 +64,62 @@
   },
   "About": {
     "title": "Fernanda Rocha | Sobre",
-    "h1": "Sobre"
+    "h1": "Sobre mim.",
+    "subtitle": "Designer, comunicadora e solucionadora criativa baseada no Brasil.",
+    "description": "Sou Fernanda Rocha, designer e profissional de marketing apaixonada por construir marcas e experiências que conectam. Atuo na interseção entre identidade visual, UI/UX e comunicação estratégica — transformando ideias em design funcional e com propósito.",
+    "location": "Brasil",
+    "role": "Designer & Comunicadora",
+    "labels": {
+      "location": "Localização",
+      "role": "Área"
+    }
   },
   "Jobs": {
     "title": "Fernanda Rocha | Trabalhos",
     "h1": "Trabalhos",
-    "description": "Confira nossas vagas abertas e aplique para o emprego que se encaixa em suas habilidades e experiência.",
-    "apply": "Aplicar",
-    "error": "Erro ao carregar empregos"
+    "subtitle": "Uma seleção de trabalhos freelance e pessoais — branding, UI/UX, web e conteúdo.",
+    "projects": {
+      "01": {
+        "category": "Fotos",
+        "title": "Fotos: Luísa Sonza - Tuparendi",
+        "description": "Fotos da artista Luísa Sonza - Tuparendi, Rio grande do Sul, Brasil."
+      },
+      "02": {
+        "category": "Midia Kit",
+        "title": "Midia Kit: Renata Giaffredo",
+        "description": "O material abaixo é um dos que desenvolvi para a influenciadora Renata Giaffredo (participante do Casamento a cegas). Durante um período, atuei na sua assessoria completa por meio de uma agência, cuidando da gestão de contratos, parcerias e acompanhando de perto o 360° da sua carreira. "
+      },
+      "03": {
+        "category": "Campanha",
+        "title": "Prati: Utilidades Domésticas & Decoração",
+        "description": "Campanha de marketing para a empresa Prati, focada em utilidades domésticas e decoração. Desenvolvi o conceito, criação de conteúdo e gestão de mídias sociais."
+      },
+      "04": {
+        "category": "Desenvolvimento de logo",
+        "title": "Trabalho de desenvolvimento de logo",
+        "description": "Desenvolvimento de logo paraNaira Machado - Assessoria em viagens"
+      }
+    },
+    "seeAll": "Ver todos os Trabalhos",
+    "tags": {
+      "photography": "Fotografia",
+      "show": "Show",
+      "events": "Eventos",
+      "mediaKit": "Midia Kit",
+      "influencers": "Influenciadores",
+      "realityShow": "Reality Show",
+      "design": "Design",
+      "graphicDesigner": "Designer Gráfico",
+      "visualIdentity": "Identidade Visual",
+      "marketing": "Marketing",
+      "brandDesign": "Brand Design",
+      "communication": "Comunicação",
+      "travel": "Viagens",
+      "logo": "Logo",
+      "identity": "Identidade",
+      "brand": "Marca",
+      "graphicDesign": "Design Gráfico"
+    }
   },
   "Contact": {
     "title": "Fernanda Rocha | Contato",
