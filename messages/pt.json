@@ -1,14 +1,10 @@
 {
   "Layout": {
-    "title": "Fernanda Rocha | Portfolio",
-    "description": "Profissional de marketing e comunicação com foco em estratégia, conteúdo e presença digital.",
-    "ogDescription": "Marketing e comunicação — estratégia, conteúdo e presença digital."
-  },
-  "Home": {
-    "description": "Meu Portfolio"
+    "title": "Fernanda Padilha da Rocha | Marketing & Comunicação Digital",
+    "description": "Profissional de marketing e comunicação com foco em estratégia digital, ativação de áudio, gestão de campanhas musicais e presença nas redes sociais.",
+    "ogDescription": "Marketing digital e comunicação — estratégia, ativação de campanhas e presença digital."
   },
   "Navbar": {
-    "titlenavbar": "NextJS Boilerplate",
     "language": "Idioma",
     "english": "Inglês",
     "portuguese": "Português",
@@ -63,66 +59,115 @@
     "return-home": "Voltar à página inicial"
   },
   "About": {
-    "title": "Fernanda Rocha | Sobre",
+    "title": "Fernanda Padilha da Rocha | Sobre",
     "h1": "Sobre mim.",
-    "subtitle": "Designer, comunicadora e solucionadora criativa baseada no Brasil.",
-    "description": "Sou Fernanda Rocha, designer e profissional de marketing apaixonada por construir marcas e experiências que conectam. Atuo na interseção entre identidade visual, UI/UX e comunicação estratégica — transformando ideias em design funcional e com propósito.",
+    "subtitle": "Profissional de Comunicação & Marketing.",
+    "description": "A música sempre ocupou um papel central na minha trajetória. Antes de se tornar profissão, já era linguagem, referência estética e forma de interpretar o mundo. É dessa conexão autêntica que nasce meu olhar estratégico: compreender que cada projeto musical carrega identidade, contexto e potencial cultural.\n\nMinha formação em design estruturou a maneira como penso posicionamento, imagem e narrativa. Encaro construção de marca, coerência visual e direção criativa como ferramentas estratégicas que fortalecem comunicação e presença de mercado. Hoje aplico essa base ao mercado musical, conectando sensibilidade artística e pensamento analítico.\n\nAtuo no desenvolvimento de projetos musicais de forma integrada — da construção de presença digital à estruturação de campanhas e ao fortalecimento de relevância cultural. Acredito que música é expressão, mas também é estratégia. É no equilíbrio entre visão criativa e performance que construo resultados consistentes e mensuráveis.",
     "location": "Brasil",
-    "role": "Designer & Comunicadora",
+    "role": "Comunicação & Marketing",
     "labels": {
       "location": "Localização",
       "role": "Área"
     }
   },
   "Jobs": {
-    "title": "Fernanda Rocha | Trabalhos",
-    "h1": "Trabalhos",
-    "subtitle": "Uma seleção de trabalhos freelance e pessoais — branding, UI/UX, web e conteúdo.",
+    "title": "Fernanda Padilha da Rocha | Campanhas",
+    "h1": "Campanhas",
+    "subtitle": "Uma seleção de campanhas trabalhadas em planejamento e execução — ativação digital, TikTok, Instagram e criadores de conteúdo.",
     "projects": {
       "01": {
-        "category": "Fotos",
-        "title": "Fotos: Luísa Sonza - Tuparendi",
-        "description": "Fotos da artista Luísa Sonza - Tuparendi, Rio grande do Sul, Brasil."
+        "category": "Curadoria & Ativação Cultural",
+        "title": "Carry the Name — Djo",
+        "description": "Campanha de curadoria focada na faixa, com objetivo de ampliar a relevância do artista no mercado brasileiro por meio de contextualização cultural e ativação digital."
       },
       "02": {
-        "category": "Midia Kit",
-        "title": "Midia Kit: Renata Giaffredo",
-        "description": "O material abaixo é um dos que desenvolvi para a influenciadora Renata Giaffredo (participante do Casamento a cegas). Durante um período, atuei na sua assessoria completa por meio de uma agência, cuidando da gestão de contratos, parcerias e acompanhando de perto o 360° da sua carreira. "
+        "category": "Ativação Digital",
+        "title": "Impose — Bad Omens",
+        "description": "Campanha estratégica focada na faixa, com ativação direcionada ao TikTok e estímulo ao uso do áudio dentro da cultura da plataforma."
       },
       "03": {
-        "category": "Campanha",
-        "title": "Prati: Utilidades Domésticas & Decoração",
-        "description": "Campanha de marketing para a empresa Prati, focada em utilidades domésticas e decoração. Desenvolvi o conceito, criação de conteúdo e gestão de mídias sociais."
+        "category": "Ativação Digital",
+        "title": "Desabafo de Um Jovem Adulto — Grelo",
+        "description": "Campanha estratégica focada na faixa, com direcionamento para ativação em TikTok e Instagram, com estímulo à criação de conteúdos alinhados à narrativa da música."
       },
       "04": {
-        "category": "Desenvolvimento de logo",
-        "title": "Trabalho de desenvolvimento de logo",
-        "description": "Desenvolvimento de logo paraNaira Machado - Assessoria em viagens"
+        "category": "Ativação Digital",
+        "title": "Subconsciente — Lou Garcia",
+        "description": "Campanha estratégica focada na faixa, com ativação em TikTok e ampliação de alcance por meio de creators e conteúdos alinhados ao posicionamento da artista."
+      },
+      "05": {
+        "category": "Ativação Digital",
+        "title": "Don't Speak French — Rose Gray",
+        "description": "Campanha estratégica focada na faixa, com direcionamento criativo para conteúdos em formato GRWM no TikTok, visando ativação orgânica e aproximação com a audiência."
+      },
+      "06": {
+        "category": "Ativação de Trend",
+        "title": "Au Pays du Cocaine — Geese",
+        "description": "Campanha estratégica focada na faixa, com direcionamento para ativação em trend no TikTok, estimulando uso massivo do áudio e crescimento orgânico na plataforma."
+      },
+      "07": {
+        "category": "Ativação de Trend",
+        "title": "Festa do Tubarão (55X Remix) — 55X",
+        "description": "Campanha estratégica focada na faixa, com ativação em trend no TikTok, priorizando impacto e engajamento dentro da cultura da plataforma."
+      },
+      "08": {
+        "category": "Ativação Digital",
+        "title": "O Que Eu Faço Agora? — Dilsinho",
+        "description": "Campanha estratégica focada na faixa, com ativação em Instagram e TikTok, envolvendo creators e páginas para ampliação de alcance e geração de volume orgânico."
+      },
+      "09": {
+        "category": "Ativação de Áudio",
+        "title": "Saudade do Carai — Mari Fernandez",
+        "description": "Campanha estratégica focada na faixa, com ativação direcionada ao TikTok e estímulo ao uso massivo do áudio na plataforma."
+      },
+      "10": {
+        "category": "Ativação Digital",
+        "title": "A Paz — Maneva",
+        "description": "Campanha estratégica focada na faixa, com ativação em TikTok e Instagram, conectando creators e páginas para ampliação de alcance e fortalecimento da presença digital do projeto."
+      },
+      "11": {
+        "category": "Ativação Digital",
+        "title": "Estranhos de Novo — Felipe Araujo",
+        "description": "Campanha estratégica focada na faixa, com ativação em TikTok e Instagram, conectando creators e páginas para ampliação de alcance e estímulo ao uso orgânico do áudio."
+      },
+      "12": {
+        "category": "Ativação de Conteúdo",
+        "title": "Antes Que Você Vá — Giulia Be",
+        "description": "Campanha estratégica focada no TikTok, com ativação direcionada para páginas de edit e creators, estimulando a criação de conteúdos emocionais e ampliando o alcance orgânico da faixa."
+      },
+      "13": {
+        "category": "Ativação de Conteúdo",
+        "title": "Minha Gata — Dilsinho",
+        "description": "Campanha estratégica focada no TikTok, com ativação direcionada para páginas de edit e creators, estimulando a criação de conteúdos e ampliando o uso orgânico do áudio."
+      },
+      "14": {
+        "category": "Ativação de Dança",
+        "title": "Work — No Na",
+        "description": "Campanha estratégica focada no TikTok, com ativação voltada para conteúdos de coreografia e creators de dança, estimulando a repetição do áudio e ampliando o alcance orgânico da faixa."
       }
     },
-    "seeAll": "Ver todos os Trabalhos",
     "tags": {
-      "photography": "Fotografia",
-      "show": "Show",
-      "events": "Eventos",
-      "mediaKit": "Midia Kit",
-      "influencers": "Influenciadores",
-      "realityShow": "Reality Show",
-      "design": "Design",
-      "graphicDesigner": "Designer Gráfico",
-      "visualIdentity": "Identidade Visual",
-      "marketing": "Marketing",
-      "brandDesign": "Brand Design",
-      "communication": "Comunicação",
-      "travel": "Viagens",
-      "logo": "Logo",
-      "identity": "Identidade",
-      "brand": "Marca",
-      "graphicDesign": "Design Gráfico"
-    }
+      "curation": "Curadoria",
+      "culturalActivation": "Ativação Cultural",
+      "digitalMarketing": "Marketing Digital",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "audioActivation": "Ativação de Áudio",
+      "strategy": "Estratégia",
+      "contentCreation": "Criação de Conteúdo",
+      "creators": "Creators",
+      "organicGrowth": "Crescimento Orgânico",
+      "grwm": "GRWM",
+      "trend": "Trend",
+      "engagement": "Engajamento",
+      "editPages": "Páginas de Edit",
+      "dance": "Dança",
+      "choreography": "Coreografia"
+    },
+    "seeAll": "Ver todas as Campanhas"
   },
   "Contact": {
-    "title": "Fernanda Rocha | Contato",
+    "title": "Fernanda Padilha da Rocha | Contato",
     "h1": "Vamos conversar?",
     "cardSubtitle": "Quer tirar uma ideia do papel, colaborar ou só trocar uma mensagem? Me chama por aqui.",
     "labels": {
@@ -145,5 +190,41 @@
     "invalidemail": "Digite um e-mail válido.",
     "subjectrequired": "Informe o assunto.",
     "messagerequired": "Escreva sua mensagem."
+  },
+  "PrivacyPolicy": {
+    "title": "Fernanda Padilha da Rocha | Política de Privacidade",
+    "h1": "Política de Privacidade",
+    "subtitle": "Como coletamos, usamos e protegemos suas informações.",
+    "lastUpdated": "Última atualização: março de 2026",
+    "sections": {
+      "01": {
+        "title": "Informações que Coletamos",
+        "content": "Coletamos informações que você nos fornece diretamente, como nome e endereço de e-mail ao entrar em contato através do formulário deste site. Também podemos coletar dados de navegação de forma anônima, como páginas visitadas e tempo de permanência, por meio de ferramentas de análise."
+      },
+      "02": {
+        "title": "Como Usamos suas Informações",
+        "content": "As informações coletadas são utilizadas exclusivamente para responder às suas mensagens, melhorar a experiência de navegação neste site e, eventualmente, enviar comunicações relevantes — sempre com seu consentimento prévio."
+      },
+      "03": {
+        "title": "Compartilhamento de Dados",
+        "content": "Não vendemos, trocamos ou transferimos suas informações pessoais a terceiros. Seus dados poderão ser compartilhados apenas com prestadores de serviço que auxiliam na operação deste site, desde que concordem em mantê-los confidenciais."
+      },
+      "04": {
+        "title": "Cookies",
+        "content": "Este site pode utilizar cookies para melhorar a experiência do usuário. Você pode optar por desativar os cookies nas configurações do seu navegador, porém isso pode afetar algumas funcionalidades do site."
+      },
+      "05": {
+        "title": "Seus Direitos",
+        "content": "Você tem o direito de acessar, corrigir ou solicitar a exclusão dos seus dados pessoais a qualquer momento. Para exercer esses direitos, entre em contato através do formulário disponível neste site."
+      },
+      "06": {
+        "title": "Alterações nesta Política",
+        "content": "Esta política de privacidade pode ser atualizada periodicamente. Recomendamos que você a revise regularmente. A data da última atualização estará sempre indicada no topo desta página."
+      },
+      "07": {
+        "title": "Contato",
+        "content": "Se tiver dúvidas sobre esta política de privacidade ou sobre o tratamento dos seus dados, entre em contato pelo formulário de contato disponível neste site."
+      }
+    }
   }
 }

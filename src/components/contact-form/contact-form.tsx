@@ -83,7 +83,7 @@ export default function ContactForm() {
                   autoComplete="name"
                   className="
                     rounded-none border-0 border-b border-border bg-transparent
-                    px-0 py-3 text-base placeholder:text-muted-foreground/40
+                    px-2 py-3 text-base placeholder:text-muted-foreground/40
                     focus-visible:ring-0 focus-visible:border-foreground
                     transition-colors duration-200
                   "
@@ -110,7 +110,7 @@ export default function ContactForm() {
                   autoComplete="email"
                   className="
                     rounded-none border-0 border-b border-border bg-transparent
-                    px-0 py-3 text-base placeholder:text-muted-foreground/40
+                    px-2 py-3 text-base placeholder:text-muted-foreground/40
                     focus-visible:ring-0 focus-visible:border-foreground
                     transition-colors duration-200
                   "
@@ -136,7 +136,7 @@ export default function ContactForm() {
                   autoComplete="off"
                   className="
                     rounded-none border-0 border-b border-border bg-transparent
-                    px-0 py-3 text-base placeholder:text-muted-foreground/40
+                    px-2 py-3 text-base placeholder:text-muted-foreground/40
                     focus-visible:ring-0 focus-visible:border-foreground
                     transition-colors duration-200
                   "
@@ -162,7 +162,7 @@ export default function ContactForm() {
                   autoComplete="off"
                   className="
                     rounded-none border-0 border-b border-border bg-transparent
-                    px-0 py-3 text-base min-h-36 resize-none
+                    px-2 py-3 text-base min-h-36 resize-none
                     placeholder:text-muted-foreground/40
                     focus-visible:ring-0 focus-visible:border-foreground
                     transition-colors duration-200
@@ -177,11 +177,11 @@ export default function ContactForm() {
         <div className="pt-4">
           <Button
             type="submit"
-            variant="outline"
+            variant="ghost"
             className="
-              group px-0 text-sm font-medium uppercase tracking-widest
+              group px-2 text-sm font-medium uppercase tracking-widest
               bg-transparent
-              transition-all duration-300"
+              transition-all duration-300 hover:bg-transparent"
           >
             <span className="text-black relative">{t("submit")}</span>
             <span className="ml-3 transition-transform duration-300 group-hover:translate-x-1 text-black">

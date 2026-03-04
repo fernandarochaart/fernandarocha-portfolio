@@ -5,6 +5,7 @@ export type Job = {
   titleKey: string;
   descriptionKey: string;
   tagsKeys: string[];
-  image: string;
   link?: string;
+  platforms?: string[];
+  agency?: string;
 };

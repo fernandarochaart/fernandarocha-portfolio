@@ -1,14 +1,10 @@
 {
   "Layout": {
-    "title": "Fernanda Rocha | Portfolio",
-    "description": "Profesional de marketing y comunicación enfocada en estrategia, contenido y presencia digital.",
-    "ogDescription": "Marketing y comunicación — estrategia, contenido y presencia digital."
-  },
-  "Home": {
-    "description": "Mi Portafolio"
+    "title": "Fernanda Padilha da Rocha | Marketing Digital y Comunicación",
+    "description": "Profesional de marketing y comunicación especializada en estrategia digital, gestión de campañas musicales, activación de audio y presencia en redes sociales.",
+    "ogDescription": "Marketing digital y comunicación — estrategia, activación de campañas y presencia en redes sociales."
   },
   "Navbar": {
-    "titlenavbar": "NextJS Boilerplate",
     "language": "Idioma",
     "english": "Inglés",
     "portuguese": "Portugués",
@@ -63,66 +59,115 @@
     "return-home": "Volver al inicio"
   },
   "About": {
-    "title": "Fernanda Rocha | Sobre mí",
+    "title": "Fernanda Padilha da Rocha | Sobre",
     "h1": "Sobre mí.",
-    "subtitle": "Diseñadora, comunicadora y solucionadora creativa basada en Brasil.",
-    "description": "Soy Fernanda Rocha, diseñadora y profesional de marketing apasionada por construir marcas y experiencias que conectan. Trabajo en la intersección entre identidad visual, UI/UX y comunicación estratégica — transformando ideas en diseño funcional y con propósito.",
+    "subtitle": "Profesional de Comunicación & Marketing.",
+    "description": "La música siempre ha ocupado un lugar central en mi trayectoria. Antes de convertirse en profesión, ya era lenguaje, referencia estética y una forma de interpretar el mundo. De esta conexión auténtica nace mi visión estratégica: entender que cada proyecto musical lleva consigo identidad, contexto y potencial cultural.\n\nMi formación en diseño estructuró la manera en que pienso el posicionamiento, la imagen y la narrativa. Entiendo la construcción de marca, la coherencia visual y la dirección creativa como herramientas estratégicas que fortalecen la comunicación y la presencia en el mercado. Hoy aplico esta base al sector musical, conectando sensibilidad artística con pensamiento analítico.\n\nTrabajo en el desarrollo de proyectos musicales de forma integral — desde la construcción de presencia digital hasta la estructuración de campañas y el fortalecimiento de la relevancia cultural. Creo que la música es expresión, pero también es estrategia. Es en el equilibrio entre visión creativa y rendimiento donde construyo resultados sólidos y medibles.",
     "location": "Brasil",
-    "role": "Diseñadora & Comunicadora",
+    "role": "Comunicación & Marketing",
     "labels": {
       "location": "Ubicación",
       "role": "Área"
     }
   },
   "Jobs": {
-    "title": "Fernanda Rocha | Trabajos",
-    "h1": "Trabajos",
-    "subtitle": "Una selección de trabajos freelance y personales — branding, UI/UX, web y contenido.",
+    "title": "Fernanda Padilha da Rocha | Campañas",
+    "h1": "Campañas",
+    "subtitle": "Una selección de campañas trabajadas en planificación y ejecución — activación digital, TikTok, Instagram y creadores de contenido.",
     "projects": {
       "01": {
-        "category": "Fotografía",
-        "title": "Fotos: Luísa Sonza - Tuparendi",
-        "description": "Fotos de la artista Luísa Sonza - Tuparendi, Rio Grande do Sul, Brasil."
+        "category": "Curaduría & Activación Cultural",
+        "title": "Carry the Name — Djo",
+        "description": "Campaña de curaduría enfocada en la canción, con el objetivo de ampliar la relevancia del artista en el mercado brasileño a través de contextualización cultural y activación digital."
       },
       "02": {
-        "category": "Media Kit",
-        "title": "Media Kit: Renata Giaffredo",
-        "description": "El material a continuación es uno de los proyectos que desarrollé para la influencer Renata Giaffredo (participante de Love Is Blind). Durante un período, gestioné su asesoría completa a través de una agencia, administrando contratos, alianzas y acompañando el 360° de su carrera."
+        "category": "Activación Digital",
+        "title": "Impose — Bad Omens",
+        "description": "Campaña estratégica enfocada en la canción, con activación dirigida a TikTok y estímulo al uso del audio dentro de la cultura de la plataforma."
       },
       "03": {
-        "category": "Campaña",
-        "title": "Prati: Utilidades Domésticas & Decoración",
-        "description": "Campaña de marketing para la empresa Prati, enfocada en utilidades domésticas y decoración. Desarrollé el concepto, creación de contenido y gestión de redes sociales."
+        "category": "Activación Digital",
+        "title": "Desabafo de Um Jovem Adulto — Grelo",
+        "description": "Campaña estratégica enfocada en la canción, con dirección hacia la activación en TikTok e Instagram, estimulando la creación de contenidos alineados con la narrativa de la música."
       },
       "04": {
-        "category": "Desarrollo de logo",
-        "title": "Proyecto de desarrollo de logo",
-        "description": "Desarrollo de logo para Naira Machado - Asesoría en viajes"
+        "category": "Activación Digital",
+        "title": "Subconsciente — Lou Garcia",
+        "description": "Campaña estratégica enfocada en la canción, con activación en TikTok y ampliación del alcance mediante creadores y contenidos alineados con el posicionamiento de la artista."
+      },
+      "05": {
+        "category": "Activación Digital",
+        "title": "Don't Speak French — Rose Gray",
+        "description": "Campaña estratégica enfocada en la canción, con dirección creativa hacia contenidos en formato GRWM en TikTok, buscando activación orgánica y acercamiento con la audiencia."
+      },
+      "06": {
+        "category": "Activación de Tendencia",
+        "title": "Au Pays du Cocaine — Geese",
+        "description": "Campaña estratégica enfocada en la canción, con dirección hacia la activación de tendencias en TikTok, estimulando el uso masivo del audio y el crecimiento orgánico en la plataforma."
+      },
+      "07": {
+        "category": "Activación de Tendencia",
+        "title": "Festa do Tubarão (55X Remix) — 55X",
+        "description": "Campaña estratégica enfocada en la canción, con activación de tendencias en TikTok, priorizando el impacto y el compromiso dentro de la cultura de la plataforma."
+      },
+      "08": {
+        "category": "Activación Digital",
+        "title": "O Que Eu Faço Agora? — Dilsinho",
+        "description": "Campaña estratégica enfocada en la canción, con activación en Instagram y TikTok, involucrando creadores y páginas para ampliar el alcance y generar volumen orgánico."
+      },
+      "09": {
+        "category": "Activación de Audio",
+        "title": "Saudade do Carai — Mari Fernandez",
+        "description": "Campaña estratégica enfocada en la canción, con activación dirigida a TikTok y estímulo al uso masivo del audio en la plataforma."
+      },
+      "10": {
+        "category": "Activación Digital",
+        "title": "A Paz — Maneva",
+        "description": "Campaña estratégica enfocada en la canción, con activación en TikTok e Instagram, conectando creadores y páginas para ampliar el alcance y fortalecer la presencia digital del proyecto."
+      },
+      "11": {
+        "category": "Activación Digital",
+        "title": "Estranhos de Novo — Felipe Araujo",
+        "description": "Campaña estratégica enfocada en la canción, con activación en TikTok e Instagram, conectando creadores y páginas para ampliar el alcance y estimular el uso orgánico del audio."
+      },
+      "12": {
+        "category": "Activación de Contenido",
+        "title": "Antes Que Você Vá — Giulia Be",
+        "description": "Campaña estratégica enfocada en TikTok, con activación dirigida a páginas de edición y creadores, estimulando la creación de contenidos emocionales y ampliando el alcance orgánico de la canción."
+      },
+      "13": {
+        "category": "Activación de Contenido",
+        "title": "Minha Gata — Dilsinho",
+        "description": "Campaña estratégica enfocada en TikTok, con activación dirigida a páginas de edición y creadores, estimulando la creación de contenidos y ampliando el uso orgánico del audio."
+      },
+      "14": {
+        "category": "Activación de Danza",
+        "title": "Work — No Na",
+        "description": "Campaña estratégica enfocada en TikTok, con activación orientada a contenidos de coreografía y creadores de danza, estimulando la repetición del audio y ampliando el alcance orgánico de la canción."
       }
     },
-    "seeAll": "Ver todos los Trabajos",
     "tags": {
-      "photography": "Fotografía",
-      "show": "Show en Vivo",
-      "events": "Eventos",
-      "mediaKit": "Media Kit",
-      "influencers": "Influencers",
-      "realityShow": "Reality Show",
-      "design": "Diseño",
-      "graphicDesigner": "Diseñadora Gráfica",
-      "visualIdentity": "Identidad Visual",
-      "marketing": "Marketing",
-      "brandDesign": "Diseño de Marca",
-      "communication": "Comunicación",
-      "travel": "Viajes",
-      "logo": "Logo",
-      "identity": "Identidad",
-      "brand": "Marca",
-      "graphicDesign": "Diseño Gráfico"
-    }
+      "curation": "Curaduría",
+      "culturalActivation": "Activación Cultural",
+      "digitalMarketing": "Marketing Digital",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "audioActivation": "Activación de Audio",
+      "strategy": "Estrategia",
+      "contentCreation": "Creación de Contenido",
+      "creators": "Creadores",
+      "organicGrowth": "Crecimiento Orgánico",
+      "grwm": "GRWM",
+      "trend": "Tendencia",
+      "engagement": "Compromiso",
+      "editPages": "Páginas de Edición",
+      "dance": "Danza",
+      "choreography": "Coreografía"
+    },
+    "seeAll": "Ver todas las Campañas"
   },
   "Contact": {
-    "title": "Fernanda Rocha | Contacto",
+    "title": "Fernanda Padilha da Rocha | Contacto",
     "h1": "¿Hablamos?",
     "cardSubtitle": "¿Quieres dar vida a una idea, colaborar o simplemente saludar? Escríbeme por aquí.",
     "labels": {
@@ -145,5 +190,41 @@
     "invalidemail": "Introduce un correo válido.",
     "subjectrequired": "Ingresa el asunto.",
     "messagerequired": "Escribe tu mensaje."
+  },
+  "PrivacyPolicy": {
+    "title": "Fernanda Padilha da Rocha | Política de Privacidad",
+    "h1": "Política de Privacidad",
+    "subtitle": "Cómo recopilamos, usamos y protegemos tu información.",
+    "lastUpdated": "Última actualización: marzo de 2026",
+    "sections": {
+      "01": {
+        "title": "Información que Recopilamos",
+        "content": "Recopilamos información que nos proporcionas directamente, como tu nombre y dirección de correo electrónico al contactarnos a través del formulario de este sitio. También podemos recopilar datos de navegación de forma anónima, como páginas visitadas y tiempo de permanencia, mediante herramientas de análisis."
+      },
+      "02": {
+        "title": "Cómo Usamos tu Información",
+        "content": "La información recopilada se utiliza exclusivamente para responder tus mensajes, mejorar la experiencia de navegación en este sitio y, ocasionalmente, enviar comunicaciones relevantes — siempre con tu consentimiento previo."
+      },
+      "03": {
+        "title": "Compartición de Datos",
+        "content": "No vendemos, intercambiamos ni transferimos tu información personal a terceros. Tus datos solo podrán compartirse con proveedores de servicios que ayuden en la operación de este sitio, siempre que acepten mantenerlos confidenciales."
+      },
+      "04": {
+        "title": "Cookies",
+        "content": "Este sitio puede utilizar cookies para mejorar la experiencia del usuario. Puedes optar por desactivar las cookies en la configuración de tu navegador, aunque esto puede afectar algunas funcionalidades del sitio."
+      },
+      "05": {
+        "title": "Tus Derechos",
+        "content": "Tienes derecho a acceder, corregir o solicitar la eliminación de tus datos personales en cualquier momento. Para ejercer estos derechos, contáctanos a través del formulario disponible en este sitio."
+      },
+      "06": {
+        "title": "Cambios en esta Política",
+        "content": "Esta política de privacidad puede actualizarse periódicamente. Te recomendamos revisarla con regularidad. La fecha de la última actualización siempre estará indicada en la parte superior de esta página."
+      },
+      "07": {
+        "title": "Contacto",
+        "content": "Si tienes alguna pregunta sobre esta política de privacidad o sobre el tratamiento de tus datos, contáctanos a través del formulario de contacto disponible en este sitio."
+      }
+    }
   }
 }

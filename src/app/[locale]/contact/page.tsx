@@ -26,7 +26,7 @@ export default async function ContactPage() {
   const t = await getTranslations("Contact");
 
   return (
-    <section className="col-span-4 min-h-screen px-6 md:px-16 lg:px-24 py-16 md:py-24">
+    <section className="col-span-4 px-6 md:px-16 lg:px-24 py-16 md:py-24">
       <SlideUpWrapper>
         <div className="flex flex-col lg:flex-row lg:items-start gap-16 lg:gap-24 max-w-6xl mx-auto">
           <div className="lg:w-1/2 lg:sticky lg:top-24 space-y-10">
