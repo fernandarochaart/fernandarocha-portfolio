@@ -1,5 +1,5 @@
 <h1 align="center" id="header">
-    Fernanda - Portfolio
+  Fernanda - Portfolio (NextJS)
 </h1>
 
 <p align="center">
@@ -8,167 +8,141 @@
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white" alt="Bun">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="Shadcn/UI">
-  <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
 </p>
 
 <p align="center">
-    My personal portfolio website built with Next.js, TypeScript, TailwindCSS.
+  Personal portfolio built with Next.js 16, featuring internationalization, dark mode, contact form with email integration and Slack notifications.
 </p>
 
 ---
 
-<h2 id="stack">
-  Tech Stack
-</h2>
+<h2 id="stack">Tech Stack</h2>
 
 <p>
-<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" width="48" title="HTML5"> 
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" width="48" title="HTML5">
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TailwindCSS-Dark.svg" width="48" title="TailwindCSS">
-<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" width="48" title="React.js"> 
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" width="48" title="React.js">
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg" width="48" title="TypeScript">
-<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg" width="48" title="Next.js"> 
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/NextJS-Dark.svg" width="48" title="Next.js">
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vercel-Dark.svg" width="48" title="Vercel">
 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Docker.svg" width="48" title="Docker">
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sentry.svg" width="48" title="Sentry">
 </p>
 
 ### Core Technologies
 
-- **TypeScript** - Type-safe development
-- **React 19** - Latest React features
+- **TypeScript** - Type-safe development throughout the project
+- **React 19** - Latest React features and improvements
 - **Next.js 16** - React framework with App Router
 - **Tailwind CSS v4** - Utility-first CSS framework
-- **Bun** - Fast JavaScript runtime & package manager
 - **Docker** - Optional containerized deployment
 
 ### Features & Integrations
 
-- **Shadcn UI** - Beautiful and accessible component library
+- **i18n** - Multi-language support (EN / PT-BR / ES) via Next Intl
 - **Dark Mode** - Theme switching with Next Themes
-- **i18n** - Multi-language support via Next Intl
-- **Zod** - TypeScript-first schema validation
-- **React Hook Form** - Performant form validation
-- **Class Variance Authority** - Component variant management
-- **Vercel Analytics** - Performance monitoring
+- **Zod & React Hook Form** - Robust form validation and management
+- **Shadcn UI** - Accessible and customizable UI components
+- **Nodemailer** - Contact form with email integration
+- **WebHook Slack** - Real-time Slack notifications on form submissions
+- **Sanitize HTML** - XSS protection for user-submitted content
+- **Rate Limiter Flexible** - API rate limiting and DDoS protection
+- **Vercel Analytics** - Usage and performance monitoring
 - **Vercel Speed Insights** - Real-time performance metrics
-- **Biome** - Fast formatter and linter (ESLint & Prettier alternative)
+- **Sentry** - Error tracking and monitoring
+- **Motion** - Smooth animations and transitions
 
 ---
 
-<h2 id="features">
-  Key Features
-</h2>
+<h2 id="prerequisites">Prerequisites</h2>
 
-**Production-Ready** - Optimized configuration for deployment  
-**Internationalization** - Built-in multi-language support  
-**Theme Support** - Light/Dark mode with easy customization  
-**Component Library** - Pre-configured Shadcn UI components  
-**Docker Support** - Dockerfile for testing and deployment local
-**Fast Development** - Bun for lightning-fast package management  
-**Type Safety** - Full TypeScript configuration  
-**Testing Ready** - Bun test runner configured  
-**Analytics** - Vercel Analytics & Speed Insights integrated  
-**Developer Experience** - Biome for formatting and linting
-
----
-
-<h2 id="prerequisites">
-  Prerequisites
-</h2>
-
-Before starting, ensure you have the following installed:
+Before getting started, make sure you have the following installed:
 
 - [Bun](https://bun.sh/docs) (v1 or higher) – primary runtime & package manager
-- [Docker](https://www.docker.com/) – optional, for local containerized development (Development and Testing)
+- [Docker](https://www.docker.com/) – optional, for containerized development and testing
 - [Git](https://git-scm.com/)
 
-> Optional: [Node.js](https://nodejs.org/) (v22 or higher), if you prefer running the app with Node.
+> Optional: [Node.js](https://nodejs.org/) (v22 or higher), if you prefer using Node-based tooling.
 
 ---
 
-<h2 id="installation">
-  Installation & Setup
-</h2>
+<h2 id="installation">Installation & Setup</h2>
 
-### Quick Start
-
-**Using Bun (Recommended):**
+### 1. Clone the Repository
 
 ```bash
-bunx create-next-app my-app --example https://github.com/Victor-Zarzar/nextjs-boilerplate
+git clone https://github.com/your-username/fernanda-portfolio
+cd fernanda-portfolio
 ```
 
-**Using npm:**
+### 2. Environment Configuration
+
+Copy the environment template and fill in your credentials:
 
 ```bash
-npx create-next-app my-app --example https://github.com/Victor-Zarzar/nextjs-boilerplate
+cp .env-example .env
 ```
 
-> **Important:** If using npm, you'll need to update the `package.json` scripts after installation:
->
-> ```json
-> {
->   "scripts": {
->     "test": "npm test",
->     "test:watch": "npm test --watch",
->     "test:update": "npm test --update-snapshots",
->     "prod": "npm run build && npm run start"
->   }
-> }
-> ```
+Edit the `.env` file with your actual values. The `.env-example` contains comments explaining each variable and how to obtain the required credentials.
 
-### 1. Clone or Use as Template
+**Key configurations:**
+
+- **SMTP**: Gmail account and [App Password](https://support.google.com/accounts/answer/185833)
+- **Sentry**: DSN and auth token from your [Sentry project](https://sentry.io/)
+- **Slack Webhook**: Incoming webhook URL from your Slack workspace
+- **Website URL**: Your production domain or `http://localhost:3000` for local development
+
+> **Important:** Never commit your `.env` file to version control. It is already covered by `.gitignore`.
+
+### 3. Install Dependencies & Start
 
 ```bash
-git clone https://github.com/Victor-Zarzar/nextjs-boilerplate
-cd nextjs-boilerplate
-```
-
-### 2. Install Dependencies
-
-```bash
-make install
+make install && make dev
 ```
 
 Or manually with bun:
 
 ```bash
-bun install
+bun install && bun run dev
 ```
 
-### 3. Environment Configuration (Optional)
-
-If your project requires environment variables, create a `.env` file:
+Optional: Docker + Build:
 
 ```bash
-cp .env.example .env
+make run
 ```
 
-Then edit `.env` with your configuration.
-
-### 4. Start Development Server
+### 4. Run Tests (Isolated Docker Container)
 
 ```bash
-make dev
+make test
 ```
 
 Or manually:
 
 ```bash
-bun run dev
+bun test
 ```
 
-The application will be available at `http://localhost:3000`
+### 5. Code Quality
+
+Run the linter before submitting changes:
+
+```bash
+bun lint
+```
+
+To automatically fix formatting issues:
+
+```bash
+bun format
+```
 
 ---
 
-<h2 id="usage">
-  Usage
-</h2>
+<h2 id="usage">Usage</h2>
 
 ### Available Commands
-
-View all available Make commands:
 
 ```bash
 make help
@@ -176,50 +150,17 @@ make help
 
 ### Local Development
 
-Start the development server:
+Start the development server at port 3000:
 
 ```bash
 make dev
 ```
 
-### Production Build (Local Test)
-
-Build and run in production mode locally:
-
-```bash
-make prod
-```
-
-### Running Tests
-
-Execute the test suite:
-
-```bash
-make test
-```
-
-Or with Bun:
-
-```bash
-bun test
-bun test --watch          # Watch mode
-bun test --update         # Update snapshots
-```
-
-### Code Quality
-
-Check code quality with Biome:
-
-```bash
-bun run lint              # Check for issues
-bun run format            # Format code
-```
+Access the app at `http://localhost:3000`
 
 ### Docker Deployment
 
 #### Build and Run
-
-Build the Docker image and start the container:
 
 ```bash
 make run
@@ -235,6 +176,12 @@ make stop
 
 ```bash
 make logs
+```
+
+Or directly with Docker:
+
+```bash
+docker logs -f fernanda-portfolio
 ```
 
 #### Access Container Shell
@@ -253,155 +200,80 @@ make clean
 
 ---
 
-<h2 id="makefile-commands">
-  Makefile Commands Reference
-</h2>
+<h2 id="makefile-commands">Makefile Commands Reference</h2>
 
-| Command        | Description                                                                 |
-| -------------- | --------------------------------------------------------------------------- |
-| `make install` | Install dependencies using bun                                              |
-| `make dev`     | Run the app locally in development mode                                     |
-| `make prod`    | Run the app in production mode (Mode Build Prod - Test local - Preview)     |
-| `make build`   | Build the Docker image                                                      |
-| `make run`     | Build and run the Docker container (Docker Run + Build - Development local) |
-| `make test`    | Run the automated tests (Isolated Docker container)                         |
-| `make stop`    | Stop and remove the container                                               |
-| `make clean`   | Remove image and clean environment                                          |
-| `make logs`    | Show container logs in real-time                                            |
-| `make shell`   | Access container shell                                                      |
-| `make help`    | Display all available commands                                              |
+| Command        | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| `make install` | Install dependencies using bun                           |
+| `make dev`     | Start the app in development mode                        |
+| `make prod`    | Build and run the app in production mode (local preview) |
+| `make build`   | Build the Docker image                                   |
+| `make run`     | Build and start the Docker container (development local) |
+| `make test`    | Run automated tests inside an isolated Docker container  |
+| `make stop`    | Stop and remove the running container                    |
+| `make clean`   | Remove Docker image and clean build files                |
+| `make logs`    | Stream container logs in real-time                       |
+| `make shell`   | Open a shell session inside the container                |
+| `make help`    | Show all available commands                              |
 
 ---
 
-<h2 id="project-structure">
-  Project Structure
-</h2>
+<h2 id="project-structure">Project Structure</h2>
 
 ```
-nextjs-boilerplate/
-├── .github/                        # GitHub configuration
-│   ├── workflows/                  # GitHub Actions workflows
-│   │   ├── main.yaml               # CI/CD pipeline
-│   │   └── codeql-analysis.yaml    # Code security analysis
-│   └── dependabot.yml              # Dependency updates configuration
-├── app/                            # Next.js App Router
-│   ├── [locale]/                   # Internationalization routes
-│   ├── layout.tsx                  # Root layout
-│   └── page.tsx                    # Home page
-├── components/                     # React components
-│   ├── ui/                         # Shadcn UI components
-│   └── ...                         # Custom components
-├── lib/                            # Utility functions and helpers
-├── public/                         # Static assets
-├── tests/                          # Test files
-├── .env.example                    # Environment variables template
-├── Dockerfile                      # Docker configuration
-├── Makefile                        # Build automation commands
-├── next.config.js                  # Next.js configuration
-├── package.json                    # Project dependencies
-├── tailwind.config.ts              # Tailwind CSS configuration
-├── tsconfig.json                   # TypeScript configuration
-└── biome.json                      # Biome configuration
+fernanda-portfolio/
+├── app/                    # Next.js App Router
+├── components/             # Reusable React components
+├── lib/                    # Utility functions and helpers
+├── public/                 # Static assets
+├── styles/                 # Global styles
+├── tests/                  # Automated tests
+├── .env-example            # Environment variables template
+├── .env                    # Environment variables (not in git)
+├── Dockerfile              # Docker configuration
+├── Makefile                # Build and task automation
+├── next.config.js          # Next.js configuration
+├── bun.lock                # Bun package lock file
+├── tailwind.config.ts      # Tailwind CSS configuration
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ---
 
-<h2 id="customization">
-  Customization
-</h2>
-
-### Adding Components
-
-This boilerplate uses Shadcn UI. Add new components with:
-
-```bash
-bunx shadcn add button
-bunx shadcn add card
-bunx shadcn add dialog
-```
-
-### Configuring Internationalization
-
-Edit the i18n configuration in your Next.js config and create locale files for your supported languages.
-
-### Theme Customization
-
-Modify `tailwind.config.ts` to customize your color palette, fonts, and other design tokens.
-
-### Environment Variables
-
-Add your environment variables to `.env` file. Use the `@t3-oss/env-nextjs` package for type-safe environment variable validation.
-
----
-
-<h2 id="deployment">
-  Deployment
-</h2>
+<h2 id="deployment">Deployment</h2>
 
 ### Vercel (Recommended)
 
-The easiest way to deploy your Next.js app is using Vercel:
+This project is optimized for deployment on Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/fernanda-portfolio)
 
-1. Push your code to GitHub
-2. Import your repository in Vercel
-3. Configure environment variables
-4. Deploy!
+> Don't forget to add all environment variables from `.env-example` to your Vercel project settings before deploying.
 
 ---
 
-<h2 id="testing">
-  Testing
-</h2>
+<h2 id="contributing">Contributing</h2>
 
-This boilerplate uses Bun's built-in test runner with React Testing Library:
-
-```bash
-# Run all tests
-bun test
-
-# Watch mode
-bun test --watch
-
-# Update snapshots
-bun test --update-snapshots
-```
-
-Add your tests in the `tests/` directory or colocate them with your components.
-
----
-
-<h2 id="contributing">
-  Contributing
-</h2>
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
 ---
 
-<h2 id="license">
-  License
-</h2>
+<h2 id="license">License</h2>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-<h2 id="acknowledgments">
-  Acknowledgments
-</h2>
+<h2 id="contact">Contact</h2>
 
-- [Next.js](https://nextjs.org/) - The React Framework
-- [Shadcn UI](https://ui.shadcn.com/) - Component library
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [Bun](https://bun.sh/) - JavaScript runtime
-- [Vercel](https://vercel.com/) - Deployment platform
+Fernanda – [@your-github](https://github.com/fernandarochaart)
+
+Project Link: [https://github.com/fernandarochaart/fernandarocha-portfolio](https://github.com/fernandarochaart/fernandarocha-portfolio)
 
 ---

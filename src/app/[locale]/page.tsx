@@ -1,12 +1,11 @@
-import { getTranslations } from "next-intl/server";
+import HeroSection from "@/components/hero-section/hero-section";
 import SlideUpWrapper from "@/components/wrapper/slide-wrapper";
 
-export default async function Home() {
-  const t = await getTranslations("Navigation");
+export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex flex-col items-center justify-between p-24">
       <SlideUpWrapper>
-        <h1 className="text-2xl font-bold">{t("home")}</h1>
+        <HeroSection />
       </SlideUpWrapper>
     </main>
   );

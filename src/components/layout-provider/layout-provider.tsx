@@ -33,7 +33,9 @@ export default function LayoutProvider({
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">{children}</main>
+      <div className="min-h-screen">
+        <main className="flex flex-col">{children}</main>
+      </div>
       <Toaster position="top-right" expand={true} />
       {hasConsented && <Analytics />}
       <SpeedInsights />
