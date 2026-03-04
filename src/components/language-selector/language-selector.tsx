@@ -20,9 +20,9 @@ const LangToggler = ({ trigger, defaultOpen, align = "end" }: Props) => {
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
 
-  const en = "/en.svg";
-  const es = "/es.svg";
-  const pt = "/pt.svg";
+  const en = "/static/en.svg";
+  const es = "/static/es.svg";
+  const pt = "/static/pt.svg";
 
   function onChange(newLocale: string) {
     startTransition(() => {

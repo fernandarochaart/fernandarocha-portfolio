@@ -1,4 +1,6 @@
 "use client";
+
+import * as Sentry from "@sentry/nextjs";
 import { CookieIcon, X } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
@@ -71,7 +73,7 @@ export default function CookieConsentComponent({
       }
     } catch (error) {
       toast.error(t("error"));
-      throw error;
+      Sentry.captureException(error);
     }
   }, [demo, t]);
 
