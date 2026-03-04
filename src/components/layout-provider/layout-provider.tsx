@@ -33,7 +33,7 @@ export default function LayoutProvider({
   return (
     <>
       <Navbar />
-      {children}
+      <main className="min-h-screen">{children}</main>
       <Toaster position="top-right" expand={true} />
       {hasConsented && <Analytics />}
       <SpeedInsights />

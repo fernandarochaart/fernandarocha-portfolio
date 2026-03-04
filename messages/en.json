@@ -1,14 +1,10 @@
 {
   "Layout": {
-    "title": "Fernanda Rocha | Portfolio",
-    "description": "Marketing and communication professional focused on strategy, content, and digital presence.",
-    "ogDescription": "Marketing and communication — strategy, content, and digital presence."
-  },
-  "Home": {
-    "description": "My Portfolio"
+    "title": "Fernanda Padilha da Rocha | Digital Marketing & Communications",
+    "description": "Marketing and communications professional specializing in digital strategy, music campaign management, audio activation, and social media presence.",
+    "ogDescription": "Digital marketing & communications — strategy, campaign activation, and social media presence."
   },
   "Navbar": {
-    "titlenavbar": "NextJS Boilerplate",
     "language": "Language",
     "english": "English",
     "portuguese": "Portuguese",
@@ -23,11 +19,11 @@
     "contact": "Contact",
     "login": "Login",
     "getStarted": "Get Started",
-    "jobs": "Projects",
+    "jobs": "Jobs",
     "brandName": "Fernanda Rocha"
   },
   "Footer": {
-    "jobs": "Projects",
+    "jobs": "Jobs",
     "about": "About",
     "contact": "Contact",
     "privacy": "Privacy Policy",
@@ -65,64 +61,113 @@
   "About": {
     "title": "Fernanda Rocha | About",
     "h1": "About me.",
-    "subtitle": "Designer, communicator, and creative problem solver based in Brazil.",
-    "description": "I'm Fernanda Rocha, a designer and marketing professional passionate about building brands and experiences that connect. I work at the intersection of visual identity, UI/UX, and strategic communication — transforming ideas into functional and purposeful design.",
+    "subtitle": "Communication & Marketing professional.",
+    "description": "Music has always played a central role in my journey. Before becoming a profession, it was already a language, an aesthetic reference, and a way of interpreting the world. From this authentic connection comes my strategic perspective: understanding that every musical project carries identity, context, and cultural potential.\n\nMy background in design shaped how I approach positioning, image, and narrative. I see brand building, visual consistency, and creative direction as strategic tools that strengthen communication and market presence. Today, I apply this foundation to the music industry, combining artistic sensitivity with analytical thinking.\n\nI develop music projects through an integrated approach — from building digital presence to structuring campaigns and enhancing cultural relevance. I believe music is expression, but it is also strategy. It is in balancing creative vision and performance that I build consistent and measurable results.",
     "location": "Brazil",
-    "role": "Designer & Communicator",
+    "role": "Communication & Marketing",
     "labels": {
       "location": "Location",
       "role": "Field"
     }
   },
   "Jobs": {
-    "title": "Fernanda Rocha | Projects",
-    "h1": "Projects",
-    "subtitle": "A selection of freelance and personal projects — branding, UI/UX, web, and content.",
+    "title": "Fernanda Padilha da Rocha | Campaigns",
+    "h1": "Campaigns",
+    "subtitle": "A selection of campaigns handled in planning and execution — digital activation, TikTok, Instagram, and content creators.",
     "projects": {
       "01": {
-        "category": "Photography",
-        "title": "Photos: Luísa Sonza - Tuparendi",
-        "description": "Photos of the artist Luísa Sonza - Tuparendi, Rio Grande do Sul, Brazil."
+        "category": "Curation & Cultural Activation",
+        "title": "Carry the Name — Djo",
+        "description": "A curation-focused campaign for the track, aiming to expand the artist's relevance in the Brazilian market through cultural contextualization and digital activation."
       },
       "02": {
-        "category": "Media Kit",
-        "title": "Media Kit: Renata Giaffredo",
-        "description": "The material below is one of the projects I developed for influencer Renata Giaffredo (participant of Love Is Blind). For a period, I managed her full advisory through an agency, overseeing contracts, partnerships, and supporting the 360° management of her career."
+        "category": "Digital Activation",
+        "title": "Impose — Bad Omens",
+        "description": "Strategic campaign focused on the track, with activation directed at TikTok and encouraging the use of the audio within the platform's culture."
       },
       "03": {
-        "category": "Campaign",
-        "title": "Prati: Home & Decoration",
-        "description": "Marketing campaign for Prati, focused on home and decoration products. I developed the concept, content creation, and social media management."
+        "category": "Digital Activation",
+        "title": "Desabafo de Um Jovem Adulto — Grelo",
+        "description": "Strategic campaign focused on the track, directed at activation on TikTok and Instagram, encouraging the creation of content aligned with the song's narrative."
       },
       "04": {
-        "category": "Logo Development",
-        "title": "Logo Development Project",
-        "description": "Logo development for Naira Machado - Travel Advisory"
+        "category": "Digital Activation",
+        "title": "Subconsciente — Lou Garcia",
+        "description": "Strategic campaign focused on the track, with TikTok activation and expanded reach through creators and content aligned with the artist's positioning."
+      },
+      "05": {
+        "category": "Digital Activation",
+        "title": "Don't Speak French — Rose Gray",
+        "description": "Strategic campaign focused on the track, with creative direction toward GRWM-format content on TikTok, aiming for organic activation and audience connection."
+      },
+      "06": {
+        "category": "Trend Activation",
+        "title": "Au Pays du Cocaine — Geese",
+        "description": "Strategic campaign focused on the track, directed at trend activation on TikTok, driving massive audio usage and organic growth on the platform."
+      },
+      "07": {
+        "category": "Trend Activation",
+        "title": "Festa do Tubarão (55X Remix) — 55X",
+        "description": "Strategic campaign focused on the track, with trend activation on TikTok, prioritizing impact and engagement within the platform's culture."
+      },
+      "08": {
+        "category": "Digital Activation",
+        "title": "O Que Eu Faço Agora? — Dilsinho",
+        "description": "Strategic campaign focused on the track, with activation on Instagram and TikTok, involving creators and pages to expand reach and generate organic volume."
+      },
+      "09": {
+        "category": "Audio Activation",
+        "title": "Saudade do Carai — Mari Fernandez",
+        "description": "Strategic campaign focused on the track, with activation directed at TikTok and encouraging massive audio usage on the platform."
+      },
+      "10": {
+        "category": "Digital Activation",
+        "title": "A Paz — Maneva",
+        "description": "Strategic campaign focused on the track, with activation on TikTok and Instagram, connecting creators and pages to expand reach and strengthen the project's digital presence."
+      },
+      "11": {
+        "category": "Digital Activation",
+        "title": "Estranhos de Novo — Felipe Araujo",
+        "description": "Strategic campaign focused on the track, with activation on TikTok and Instagram, connecting creators and pages to expand reach and encourage organic audio usage."
+      },
+      "12": {
+        "category": "Content Activation",
+        "title": "Antes Que Você Vá — Giulia Be",
+        "description": "Strategic campaign focused on TikTok, with activation directed at edit pages and creators, encouraging the creation of emotional content and expanding the track's organic reach."
+      },
+      "13": {
+        "category": "Content Activation",
+        "title": "Minha Gata — Dilsinho",
+        "description": "Strategic campaign focused on TikTok, with activation directed at edit pages and creators, encouraging content creation and expanding organic audio usage."
+      },
+      "14": {
+        "category": "Dance Activation",
+        "title": "Work — No Na",
+        "description": "Strategic campaign focused on TikTok, with activation aimed at choreography content and dance creators, encouraging audio repetition and expanding the track's organic reach."
       }
     },
-    "seeAll": "See all Jobs",
     "tags": {
-      "photography": "Photography",
-      "show": "Live Show",
-      "events": "Events",
-      "mediaKit": "Media Kit",
-      "influencers": "Influencers",
-      "realityShow": "Reality Show",
-      "design": "Design",
-      "graphicDesigner": "Graphic Designer",
-      "visualIdentity": "Visual Identity",
-      "marketing": "Marketing",
-      "brandDesign": "Brand Design",
-      "communication": "Communication",
-      "travel": "Travel",
-      "logo": "Logo",
-      "identity": "Identity",
-      "brand": "Brand",
-      "graphicDesign": "Graphic Design"
-    }
+      "curation": "Curation",
+      "culturalActivation": "Cultural Activation",
+      "digitalMarketing": "Digital Marketing",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "audioActivation": "Audio Activation",
+      "strategy": "Strategy",
+      "contentCreation": "Content Creation",
+      "creators": "Creators",
+      "organicGrowth": "Organic Growth",
+      "grwm": "GRWM",
+      "trend": "Trend",
+      "engagement": "Engagement",
+      "editPages": "Edit Pages",
+      "dance": "Dance",
+      "choreography": "Choreography"
+    },
+    "seeAll": "See All Campaigns"
   },
   "Contact": {
-    "title": "Fernanda Rocha | Contact",
+    "title": "Fernanda Padilha da Rocha | Contact",
     "h1": "Let's talk?",
     "cardSubtitle": "Want to bring an idea to life, collaborate, or just say hello? Reach out here.",
     "labels": {
@@ -145,5 +190,41 @@
     "invalidemail": "Enter a valid email.",
     "subjectrequired": "Please enter a subject.",
     "messagerequired": "Write your message."
+  },
+  "PrivacyPolicy": {
+    "title": "Fernanda Padilha da Rocha | Privacy Policy",
+    "h1": "Privacy Policy",
+    "subtitle": "How we collect, use, and protect your information.",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": {
+      "01": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly, such as your name and email address when reaching out through this site's contact form. We may also collect anonymous browsing data — such as pages visited and time spent — through analytics tools."
+      },
+      "02": {
+        "title": "How We Use Your Information",
+        "content": "The information collected is used solely to respond to your messages, improve the browsing experience on this site, and occasionally send relevant communications — always with your prior consent."
+      },
+      "03": {
+        "title": "Data Sharing",
+        "content": "We do not sell, trade, or transfer your personal information to third parties. Your data may only be shared with service providers who assist in operating this site, provided they agree to keep it confidential."
+      },
+      "04": {
+        "title": "Cookies",
+        "content": "This site may use cookies to enhance the user experience. You may choose to disable cookies in your browser settings, though this may affect some site functionality."
+      },
+      "05": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or request the deletion of your personal data at any time. To exercise these rights, please reach out through the contact form available on this site."
+      },
+      "06": {
+        "title": "Changes to This Policy",
+        "content": "This privacy policy may be updated periodically. We recommend reviewing it regularly. The date of the last update will always be indicated at the top of this page."
+      },
+      "07": {
+        "title": "Contact",
+        "content": "If you have any questions about this privacy policy or how your data is handled, please get in touch through the contact form available on this site."
+      }
+    }
   }
 }

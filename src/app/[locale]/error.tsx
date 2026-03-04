@@ -8,7 +8,7 @@ export default function ErrorPage() {
   const t = useTranslations("Error");
 
   return (
-    <main className="mx-auto mb-16 flex max-w-96 md:max-w-3xl flex-col items-start justify-center min-h-screen">
+    <main className="mx-auto mb-16 flex max-w-96 md:max-w-3xl flex-col items-start justify-center">
       <h1 className="mb-4 font-bold tracking-tight text-4xl md:text-5xl lg:text-7xl">
         {t("title")}
       </h1>

@@ -1,7 +1,6 @@
 import type { Metadata } from "next/types";
 import { getTranslations } from "next-intl/server";
 import SeeAllProjects from "@/components/seall-jobs/seall-jobs";
-import JobImage from "@/components/wrapper/image-wrapper";
 import SlideUpWrapper from "@/components/wrapper/slide-wrapper";
 import { routing } from "@/i18n/routing";
 import { jobs } from "@/shared/data/getJobsData";
@@ -28,7 +27,7 @@ export default async function JobsPage() {
   const t = await getTranslations("Jobs");
 
   return (
-    <section className="col-span-4 min-h-screen px-6 md:px-16 lg:px-24 py-16 md:py-24">
+    <section className="col-span-4 px-6 md:px-16 lg:px-24 py-16 md:py-24">
       <SlideUpWrapper>
         <div className="max-w-6xl mx-auto">
           <div className="lg:w-1/2 space-y-10 mb-24">
@@ -53,46 +52,19 @@ export default async function JobsPage() {
                 return (
                   <div
                     key={job.id}
-                    className={`relative flex flex-col gap-8 py-16 border-b border-border last:border-b-0 lg:border-b-0
-                      lg:grid lg:grid-cols-2 lg:gap-0 lg:items-center`}
+                    className="relative flex py-16 border-b border-border last:border-b-0 lg:border-b-0"
                   >
+                    {/* Text content — alternates left/right on desktop */}
                     <div
-                      className={`lg:px-12 ${
-                        isEven ? "lg:order-2" : "lg:order-1"
-                      }`}
-                    >
-                      {job.link ? (
-                        <a
-                          href={job.link}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="block group"
-                          aria-label={title}
-                        >
-                          <JobImage
-                            src={job.image}
-                            alt={title}
-                            priority={index === 0}
-                          />
-                        </a>
-                      ) : (
-                        <JobImage
-                          src={job.image}
-                          alt={title}
-                          priority={index === 0}
-                        />
-                      )}
-                    </div>
-
-                    <div
-                      className={`space-y-4 ${
+                      className={`w-full space-y-4 lg:w-1/2 ${
                         isEven
-                          ? "lg:order-1 lg:text-right lg:px-12"
-                          : "lg:order-2 lg:text-left lg:px-12"
+                          ? "lg:ml-auto lg:text-right lg:pr-16 lg:pl-4"
+                          : "lg:mr-auto lg:text-left lg:pl-16 lg:pr-4"
                       }`}
                     >
+                      {/* Meta: year — category — agency */}
                       <div
-                        className={`flex items-center gap-3 ${
+                        className={`flex items-center gap-3 flex-wrap ${
                           isEven ? "lg:justify-end" : "lg:justify-start"
                         }`}
                       >
@@ -103,8 +75,19 @@ export default async function JobsPage() {
                         <span className="text-xs uppercase tracking-widest text-muted-foreground">
                           {category}
                         </span>
+                        {job.agency && (
+                          <>
+                            <span className="text-xs text-muted-foreground">
+                              —
+                            </span>
+                            <span className="text-xs uppercase tracking-widest text-muted-foreground">
+                              {job.agency}
+                            </span>
+                          </>
+                        )}
                       </div>
 
+                      {/* Title */}
                       <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                         {job.link ? (
                           <a
@@ -120,10 +103,30 @@ export default async function JobsPage() {
                         )}
                       </h2>
 
+                      {/* Description */}
                       <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                         {description}
                       </p>
 
+                      {/* Platforms */}
+                      {job.platforms && job.platforms.length > 0 && (
+                        <div
+                          className={`flex flex-wrap gap-2 ${
+                            isEven ? "lg:justify-end" : "lg:justify-start"
+                          }`}
+                        >
+                          {job.platforms.map((platform) => (
+                            <span
+                              key={platform}
+                              className="text-xs px-3 py-1 bg-foreground text-background rounded-full font-medium"
+                            >
+                              {platform}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Tags */}
                       <div
                         className={`flex flex-wrap gap-2 ${
                           isEven ? "lg:justify-end" : "lg:justify-start"
@@ -140,10 +143,12 @@ export default async function JobsPage() {
                       </div>
                     </div>
 
-                    <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-foreground border-2 border-background ring-1 ring-border z-10" />
+                    {/* Timeline dot */}
+                    <div className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-foreground border-2 border-background ring-1 ring-border z-10" />
                   </div>
                 );
               })}
+
               <div className="mt-10 md:mt-20">
                 <SeeAllProjects />
               </div>
