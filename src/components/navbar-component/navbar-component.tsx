@@ -4,12 +4,14 @@ import { LanguagesIcon, Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import LangToggler from "@/components/language-selector/language-selector";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("Navigation");
+  const pathname = usePathname();
 
   const navItems = [
     { href: "/jobs", label: t("jobs") },
@@ -17,12 +19,28 @@ export default function Navbar() {
     { href: "/contact", label: t("contact") },
   ];
 
+  function handleBrandClick(e: React.MouseEvent) {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
   return (
     <nav className="sticky top-0 z-50 w-full bg-transparent backdrop-blur-xl">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center space-x-2 group">
-            <span className="text-xl font-bold bg-linear-to-r text-gray-700 bg-clip-text">
+          <Link
+            href="/"
+            className="flex items-center space-x-2 group"
+            onClick={handleBrandClick}
+          >
+            <span
+              className="text-xl font-bold bg-linear-to-r text-gray-700 bg-clip-text after:transition-all after:duration-300
+            hover:after:w-full hover:text-black-900 relative pb-1
+              after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0
+              after:bg-gray-900 hover:text-black-900"
+            >
               {t("brandName")}
             </span>
           </Link>

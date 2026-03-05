@@ -71,8 +71,8 @@ Before getting started, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fernanda-portfolio
-cd fernanda-portfolio
+git clone https://github.com/fernandarochaart/fernandarocha-portfolio
+cd fernandarocha-portfolio
 ```
 
 ### 2. Environment Configuration

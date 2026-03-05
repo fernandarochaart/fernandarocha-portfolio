@@ -13,7 +13,7 @@ import {
 import { usePathname, useRouter } from "@/i18n/navigation";
 import type { Props } from "@/types/language";
 
-const LangToggler = ({ trigger, defaultOpen, align = "end" }: Props) => {
+const LangToggler = ({ trigger, defaultOpen, align = "start" }: Props) => {
   const t = useTranslations("Navbar");
   const locale = useLocale();
   const router = useRouter();

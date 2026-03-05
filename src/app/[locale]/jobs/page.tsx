@@ -1,6 +1,5 @@
 import type { Metadata } from "next/types";
 import { getTranslations } from "next-intl/server";
-import SeeAllProjects from "@/components/seall-jobs/seall-jobs";
 import SlideUpWrapper from "@/components/wrapper/slide-wrapper";
 import { routing } from "@/i18n/routing";
 import { jobs } from "@/shared/data/getJobsData";
@@ -54,7 +53,6 @@ export default async function JobsPage() {
                     key={job.id}
                     className="relative flex py-16 border-b border-border last:border-b-0 lg:border-b-0"
                   >
-                    {/* Text content — alternates left/right on desktop */}
                     <div
                       className={`w-full space-y-4 lg:w-1/2 ${
                         isEven
@@ -62,7 +60,6 @@ export default async function JobsPage() {
                           : "lg:mr-auto lg:text-left lg:pl-16 lg:pr-4"
                       }`}
                     >
-                      {/* Meta: year — category — agency */}
                       <div
                         className={`flex items-center gap-3 flex-wrap ${
                           isEven ? "lg:justify-end" : "lg:justify-start"
@@ -87,7 +84,6 @@ export default async function JobsPage() {
                         )}
                       </div>
 
-                      {/* Title */}
                       <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
                         {job.link ? (
                           <a
@@ -103,12 +99,10 @@ export default async function JobsPage() {
                         )}
                       </h2>
 
-                      {/* Description */}
                       <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
                         {description}
                       </p>
 
-                      {/* Platforms */}
                       {job.platforms && job.platforms.length > 0 && (
                         <div
                           className={`flex flex-wrap gap-2 ${
@@ -126,7 +120,6 @@ export default async function JobsPage() {
                         </div>
                       )}
 
-                      {/* Tags */}
                       <div
                         className={`flex flex-wrap gap-2 ${
                           isEven ? "lg:justify-end" : "lg:justify-start"
@@ -143,15 +136,10 @@ export default async function JobsPage() {
                       </div>
                     </div>
 
-                    {/* Timeline dot */}
                     <div className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-foreground border-2 border-background ring-1 ring-border z-10" />
                   </div>
                 );
               })}
-
-              <div className="mt-10 md:mt-20">
-                <SeeAllProjects />
-              </div>
             </div>
           </div>
         </div>
