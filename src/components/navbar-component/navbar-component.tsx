@@ -1,12 +1,11 @@
 "use client";
 
-import { LanguagesIcon, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import LangToggler from "@/components/language-selector/language-selector";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
+import { LocaleLink } from "../locale-link/locale-link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,13 +58,7 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <LangToggler
-              trigger={
-                <button type="button">
-                  <LanguagesIcon />
-                </button>
-              }
-            />
+            <LocaleLink />
           </div>
 
           <button
@@ -94,13 +87,7 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="px-4 pt-2">
-              <LangToggler
-                trigger={
-                  <button type="button">
-                    <LanguagesIcon />
-                  </button>
-                }
-              />
+              <LocaleLink />
             </div>
           </div>
         </div>
