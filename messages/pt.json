@@ -187,9 +187,10 @@
     "emailsucess": "Mensagem enviada com sucesso!",
     "emailerror": "Não foi possível enviar. Tente novamente em instantes.",
     "namerequired": "Informe seu nome.",
-    "invalidemail": "Digite um e-mail válido.",
     "subjectrequired": "Informe o assunto.",
-    "messagerequired": "Escreva sua mensagem."
+    "messagerequired": "Escreva sua mensagem.",
+    "emailrequired": "Informe seu e-mail.",
+    "invalidemail": "Digite um e-mail válido."
   },
   "PrivacyPolicy": {
     "title": "Fernanda Padilha da Rocha | Política de Privacidade",

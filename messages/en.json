@@ -187,9 +187,10 @@
     "emailsucess": "Message sent successfully!",
     "emailerror": "Unable to send. Please try again shortly.",
     "namerequired": "Please enter your name.",
-    "invalidemail": "Enter a valid email.",
     "subjectrequired": "Please enter a subject.",
-    "messagerequired": "Write your message."
+    "messagerequired": "Write your message.",
+    "emailrequired": "Please enter your email.",
+    "invalidemail": "Please enter a valid email address."
   },
   "PrivacyPolicy": {
     "title": "Fernanda Padilha da Rocha | Privacy Policy",
