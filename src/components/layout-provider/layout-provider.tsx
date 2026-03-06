@@ -6,6 +6,7 @@ import type React from "react";
 import { useEffect, useState } from "react";
 import CookieConsentComponent from "@/components/cookie-consent/cookie-consent";
 import { Toaster } from "@/components/ui/sonner";
+import CursorTrailCanvas from "../cursor-canvas/cursor-canvas";
 import Footer from "../footer-component/footer-component";
 import Navbar from "../navbar-component/navbar-component";
 
@@ -33,7 +34,12 @@ export default function LayoutProvider({
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">{children}</main>
+      <div className="min-h-screen">
+        <main className="flex flex-col">
+          <CursorTrailCanvas className="fixed inset-0 z-50 pointer-events-none" />
+          {children}
+        </main>
+      </div>
       <Toaster position="top-right" expand={true} />
       {hasConsented && <Analytics />}
       <SpeedInsights />

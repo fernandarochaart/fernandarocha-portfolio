@@ -8,7 +8,7 @@ export default function NotFound404() {
   const t = useTranslations("NotFound");
 
   return (
-    <main className="flex items-center justify-center">
+    <main className="flex items-center justify-center min-h-screen">
       <section className="text-center">
         <div className="max-w-md mx-auto px-4 py-8">
           <h1 className="text-4xl md:text-7xl lg:text-9xl font-extrabold">

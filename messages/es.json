@@ -46,7 +46,7 @@
     "accept": "Aceptar",
     "decline": "Rechazar",
     "message": "Usamos cookies para mejorar tu experiencia.",
-    "privacyLink": "Lee nuestra Política de Privacidad",
+    "privacyLink": "Saber más",
     "error": "Error al aceptar las cookies"
   },
   "NotFound": {
@@ -71,8 +71,8 @@
     }
   },
   "Jobs": {
-    "title": "Fernanda Padilha da Rocha | Campañas",
-    "h1": "Campañas",
+    "title": "Fernanda Padilha da Rocha | Trabajos",
+    "h1": "Trabajos",
     "subtitle": "Una selección de campañas trabajadas en planificación y ejecución — activación digital, TikTok, Instagram y creadores de contenido.",
     "projects": {
       "01": {
@@ -187,9 +187,10 @@
     "emailsucess": "¡Mensaje enviado con éxito!",
     "emailerror": "No fue posible enviar. Inténtalo nuevamente en unos instantes.",
     "namerequired": "Ingresa tu nombre.",
-    "invalidemail": "Introduce un correo válido.",
     "subjectrequired": "Ingresa el asunto.",
-    "messagerequired": "Escribe tu mensaje."
+    "messagerequired": "Escribe tu mensaje.",
+    "emailrequired": "Ingresa tu correo electrónico.",
+    "invalidemail": "Ingresa una dirección de correo válida."
   },
   "PrivacyPolicy": {
     "title": "Fernanda Padilha da Rocha | Política de Privacidad",

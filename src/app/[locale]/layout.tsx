@@ -44,7 +44,7 @@ export async function generateMetadata({
       siteName: "Fernanda Rocha | Portfolio",
       images: [
         {
-          url: "/og-image.png",
+          url: "/static/og-image.png",
           width: 1200,
           height: 630,
         },
@@ -61,8 +61,8 @@ export async function generateMetadata({
       },
     },
     icons: {
-      icon: "/favicon.ico",
-      shortcut: "/favicon.ico",
+      icon: "/static/favicon.ico",
+      shortcut: "/static/favicon.ico",
     },
     robots: {
       index: true,

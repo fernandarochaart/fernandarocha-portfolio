@@ -1,10 +1,12 @@
 "use client";
-import { CookieIcon, X } from "lucide-react";
-import Link from "next/link";
+
+import * as Sentry from "@sentry/nextjs";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import type { CookieConsentProps } from "@/types/cookies";
 
@@ -54,7 +56,7 @@ export default function CookieConsentComponent({
     onDeclineAction?.();
   }
 
-  React.useEffect(() => {
+  useEffect(() => {
     try {
       setIsOpen(true);
       const cookies = document.cookie;
@@ -71,63 +73,70 @@ export default function CookieConsentComponent({
       }
     } catch (error) {
       toast.error(t("error"));
-      throw error;
+      Sentry.captureException(error);
     }
   }, [demo, t]);
 
   return (
-    <div
-      className={cn(
-        "fixed z-200 bottom-0 left-0 right-0 sm:bottom-6 sm:left-auto sm:right-6 w-full sm:max-w-md transition-all duration-500 ease-out",
-        !isOpen
-          ? "translate-y-full sm:translate-y-8 opacity-0 pointer-events-none"
-          : "translate-y-0 opacity-100",
-        hide && "hidden",
-      )}
+    <motion.div
+      key="cookieAlertComponent"
+      className={`fixed
+                   bottom-0 sm:bottom-5
+                   right-0 sm:right-5
+                   z-40
+                   font-regular
+                   w-full sm:max-w-sm
+                   p-3
+                   bg-pink
+                   text-blue
+                 `}
+      initial={{ y: "150%" }}
+      transition={{ delay: 0.8, duration: 0.5 }}
     >
-      <div className="mx-4 sm:mx-0 mb-4 sm:mb-0 backdrop-blur-sm bg-white/95 rounded-xl border border-gray-200 shadow-2xl overflow-hidden">
-        <div className="relative">
-          <div className="relative border-b border-gray-200 bg-linear-to-r from-blue-50/50 to-purple-50/50 px-5 py-4">
-            <div className="flex items-center gap-3">
-              <div className="shrink-0 w-10 h-10 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                <CookieIcon className="h-5 w-5 text-white" />
-              </div>
-              <h1 className="text-lg font-semibold text-gray-900">
-                {t("title")}
-              </h1>
-            </div>
+      <div
+        className={cn(
+          "fixed z-40 bottom-0 left-0 right-0 sm:bottom-8 sm:left-auto sm:right-6 w-full sm:max-w-sm transition-all duration-500 ease-out",
+          !isOpen
+            ? "translate-y-full sm:translate-y-8 opacity-0 pointer-events-none"
+            : "translate-y-0 opacity-100",
+          hide && "hidden",
+        )}
+      >
+        <div className="mx-4 sm:mx-0 mb-12 sm:mb-0 bg-pink rounded-xl shadow-2xl overflow-hidden p-4 bg-white">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">🍪</span>
+            <h1 className="text-base font-semibold text-blue">{t("title")}</h1>
           </div>
 
-          <div className="px-5 py-5 border-t">
-            <p className="text-sm leading-relaxed text-gray-700">
-              {t("message")}
-            </p>
-            <Link
-              href="/privacypolicy"
-              className="inline-flex items-center gap-1 mt-3 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors underline underline-offset-2"
-            >
-              {t("privacyLink")}
-              <span className="text-xs">→</span>
-            </Link>
-          </div>
+          <p className="text-sm leading-relaxed text-blue mb-3">
+            {t("message")}
+          </p>
 
-          <div className="flex flex-col sm:flex-row gap-2.5 px-5 py-4 border-t">
-            <Button
-              onClick={accept}
-              className="flex-1 bg-linear-to-r text-gray-200 shadow-md hover:shadow-lg transition-all duration-200  font-medium"
-            >
-              {t("accept")}
-            </Button>
+          <div className="flex items-center gap-2">
             <Button
               onClick={decline}
-              className="flex-1  bg-stone-800 hover:bg-stone-700 text-gray-200 font-medium transition-all duration-200"
-              variant="secondary"
+              variant="ghost"
+              className="flex-1 text-blue hover:bg-pink/80 font-medium transition-all duration-200"
             >
               {t("decline")}
+            </Button>
+
+            <Link
+              href="/privacypolicy"
+              className="flex-1 inline-flex items-center justify-center text-sm font-medium text-blue hover:underline underline-offset-2 transition-colors"
+            >
+              {t("privacyLink")}
+            </Link>
+
+            <Button
+              onClick={accept}
+              className="flex-1 bg-stone-800 hover:bg-stone-700 text-gray-200 font-medium shadow-md hover:shadow-lg transition-all duration-200"
+            >
+              {t("accept")}
             </Button>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

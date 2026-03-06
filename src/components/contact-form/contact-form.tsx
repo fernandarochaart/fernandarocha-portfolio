@@ -23,7 +23,12 @@ export default function ContactForm() {
 
   const formSchema = z.object({
     name: z.string().min(1, t("namerequired")),
-    email: z.email(t("invalidemail")),
+    email: z
+      .string()
+      .trim()
+      .toLowerCase()
+      .min(1, t("emailrequired"))
+      .email(t("invalidemail")),
     subject: z.string().min(1, t("subjectrequired")),
     message: z.string().min(1, t("messagerequired")),
     company: z.string().optional(),
@@ -78,7 +83,7 @@ export default function ContactForm() {
               </FormLabel>
               <FormControl>
                 <Input
-                  placeholder=""
+                  placeholder={t("name")}
                   {...field}
                   autoComplete="name"
                   className="
@@ -104,8 +109,9 @@ export default function ContactForm() {
               </FormLabel>
               <FormControl>
                 <Input
-                  placeholder=""
-                  type="email"
+                  placeholder={t("email")}
+                  type="text"
+                  inputMode="email"
                   {...field}
                   autoComplete="email"
                   className="
@@ -131,7 +137,7 @@ export default function ContactForm() {
               </FormLabel>
               <FormControl>
                 <Input
-                  placeholder=""
+                  placeholder={t("subject")}
                   {...field}
                   autoComplete="off"
                   className="
@@ -157,7 +163,7 @@ export default function ContactForm() {
               </FormLabel>
               <FormControl>
                 <Textarea
-                  placeholder=""
+                  placeholder={t("message")}
                   {...field}
                   autoComplete="off"
                   className="

@@ -11,6 +11,12 @@ env:
   NODE_ENV: test
   SKIP_ENV_VALIDATION: "true"
   NEXT_PUBLIC_WEBSITE_URL: "http://localhost:3000"
+  SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+  SENTRY_RELEASE: ${{ secrets.SENTRY_RELEASE }}
+  SENTRY_ORG: ${{ secrets.SENTRY_ORG }}
+  SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
 
 jobs:
   build:
